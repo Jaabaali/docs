@@ -1,27 +1,25 @@
-# 🧵 Get Started with Jabali on Discord
+Welcome to Jabali Product Docs
+Create AI-powered games with just a prompt.
+Whether you're a developer, hobbyist, student, or part of a small studio, Jabali lets you build story-rich 2D games in minutes — no coding required.
+✨ Create visual novels, character sims, roguelite RPGs, and arcade games with natural language prompts.
 
-Jabali lets you create games directly inside Discord using simple slash commands — no installations, no coding, just you and your imagination.
+🚀 Get Started
+Ready to dive in? Choose how you'd like to build:
+🧵 Use on Discord: Create games directly in Discord using simple slash commands.
+🌐 Use on Web: Drag, drop, and prompt your way to full games in our online editor.
+💻 Use the Desktop App (coming soon!): For full control and advanced editing on Mac & Windows.
 
-Whether you're a beginner or a pro, Jabali on Discord is the fastest way to start building AI-generated 2D narrative games.
+📚 Core Concepts
+Understand how the engine works and what you can build:
+🎯 How It Works
+🧠 Prompting Guide
+🧩 Story, Characters & Assets
+🔄 Asset Generation, Prompt Engineering & Content Management
 
----
+🛠 Tutorials
+Learn by doing! These step-by-step guides walk you through making your first games:
+🐿 Build a Character Simulation Game
+📖 Create an Interactive Story
 
-## ✅ Step 1: Invite Jabali to Your Server
-
-To begin, you’ll need to invite the Jabali bot to your Discord server:
-
-👉 [Click here to invite Jabali](https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&scope=bot+applications.commands&permissions=XXXXXX)
-
-> You must have "Manage Server" permissions to invite the bot.
-
-Once Jabali is added, you’ll see it listed in your server’s member list. You’re ready to create!
-
----
-
-## ✍️ Step 2: Start a New Game
-
-Use the `/newgame` command to create a new project.
-
-```bash
-/newgame My First Game
-
+Want more help? Visit our Support Page or join the Jabali Discord Community.
+Let’s build something epic, together. 💥
