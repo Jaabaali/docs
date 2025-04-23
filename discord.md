@@ -5,22 +5,26 @@ Whether you're a beginner or a pro, Jabali on Discord is the fastest way to star
 
 ---
 
-## ✅ Step 1: Invite Jabali to Your Server
+## ✅ Step 1: Join the Jabali Discord Server
 
-To begin, you’ll need to invite the Jabali bot to your Discord server:
+To begin, you’ll need to join the Discord server:
 
-👉 [Click here to invite Jabali](https://discord.com/oauth2/authorize?client_id=YOUR_BOT_ID&scope=bot+applications.commands&permissions=XXXXXX)
-
-> You must have "Manage Server" permissions to invite the bot.
-
-Once Jabali is added, you’ll see it listed in your server’s member list. You’re ready to create!
+👉 [Click here to join](https://discord.gg/jabali)
 
 ---
 
-## ✍️ Step 2: Start a New Game
+## ✍️ Step 2: Get Verified
 
-Use the `/newgame` command to create a new project.
+Once you've joined the Jabali server head over and get your self [verified].(https://discord.com/channels/1203127836844494850/1343882788751015988) 
 
-```bash
-/newgame My First Game
+![Alt text](images/discord-verify.webp)
 
+---
+
+## Step 3: Complete Registration 
+Go to the Registration channel and complete Registration by clikcing the 'CLICK HERE TO REGISTER' link
+
+![Discord Registration](images/discord-registration.webp)
+
+
+Next: [Creating your first game on Discord](create-discord.md)
