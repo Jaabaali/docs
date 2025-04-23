@@ -2,12 +2,15 @@
 
 To create your first game, head over to the [#builder-playground](https://discord.com/channels/1203127836844494850/1203537443064905778) channel on Jabali Discord.
 
-Once you are there, you can use the /make command and your prompt to generate your game. 
+Once you are there, you can use the **/make** command and your prompt to generate your game. 
 
 <video width="100%" height="auto" controls>
   <source src="animation/discord-make.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+# 🎯 Jabali Inference
+Using /make this way means the Jabali agents will try to infer which game genre best fits your prompt. If any of the infered genres do not meet your needs, try modifying your prompt or look at genres currently available.
 
 # ✍️ Tips for Writing Great Game Prompts
 
@@ -57,3 +60,5 @@ You want to give **just enough detail** to guide the AI — not so much that it 
 
 **❌ Too Long-Winded:**
 > The game takes place in a highly detailed alpine environment where various forest-dwelling animals form a socio-political structure governed by a council of owls. The player navigates this structure through a variety of letter delivery mechanics, seasonal quests, and reputation-building...
+
+Next: [Picking Genres](create-discord-genres.md)
