@@ -2,4 +2,4 @@
 
 # Game Concept
 
-Next: [Editing and Uploading Content](edit-upload.md)
+Next: [Editing Content](edit-upload.md)
