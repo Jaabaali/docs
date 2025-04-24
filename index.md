@@ -17,7 +17,7 @@ Ready to dive in? Choose how you'd like to build:
 
 ---
 
-## 📚 Core Concepts
+## 📚 Core Concepts [Coming Soon]
 
 Understand how the engine works and what you can build:
 
@@ -37,6 +37,6 @@ Learn by doing! These step-by-step guides walk you through making your first gam
 
 ---
 
-Want more help? Visit our [Support Page](support.md) or join the [Jabali Discord Community](https://discord.gg/yourlink).
+Want more help? Visit our [Support Page](support.md) or join the [Jabali Discord Community](https://discord.gg/jabali).
 
 Let’s build something epic, together. 💥

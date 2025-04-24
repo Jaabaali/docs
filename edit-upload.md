@@ -42,3 +42,5 @@ During the game generation process look for the **EDIT DATA** button below each 
 - Short is sweet: Stick to a few sentences for most fields to keep gameplay snappy.
 - Be descriptive, not vague: Instead of "cool character", try "a wandering bard with neon tattoos and a cyber-harp."
 - Test your edits to ensure they are being carried over to other parts of the game. 
+
+Next: [Uploading Content](upload-content.md)

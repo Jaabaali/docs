@@ -6,7 +6,7 @@ Just using /make means the genre will be inferred based on the given prompt. If 
   Your browser does not support the video tag.
 </video>
 
-# 🎯 Genre Description
+## 🎯 Genre Description
 
 - **Character Life Simulation** - Befriend and adventure with  AI characters with feelings.
 
