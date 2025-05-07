@@ -3,9 +3,7 @@
 Jabali’s web app gives you the power of AI-driven game creation with a visual experience. Everything you can do in Discord, you can also do on the web — with the added bonus of real-time editing, asset previews, and easy content organization.
 
 ---
-
 ## 🚀 Getting Started
-
 To begin generating games in your browser:
 
 1. Visit [https://build.production.jabali.ai](https://build.production.jabali.ai)  
@@ -13,23 +11,15 @@ To begin generating games in your browser:
 3. Enter a Prompt and Choose a template (Character Sim, Interactive Story, Arcade, etc.) or start from scratch.
 4. Finally click **"Create Game"** to begin your first project
 
----
+![Jabali Web](images/jabali-web.png)
 
 ## ✨ What You Can Generate
-
 Just like on Discord, you can generate:
 
 - **🎮 Core Game Details:** Visual style, writing style, setting, theme  
 - **🗺️ Level Structure:** Level names, environment descriptions, and story arcs  
 - **🧍 Characters:** Names, personalities, abilities, and visual portraits  
 - **🎨 Assets:** Backgrounds, objects, sprites, music, and sound effects
-
-Prompts and editing workflows follow the same structure described in:
-
-- [Editing Prompts for Asset Generation](asset-prompt-tips.md)  
-- [Editing Game Content in Discord](editing-game-content.md)  
-
----
 
 ## 🧠 Prompting Game Content
 
@@ -71,7 +61,7 @@ Uploading custom content is currently **not supported** on the Web and will be a
 
 ## ▶️ Publishing & Playtesting
 
-Click the **▶️ Play** button at any time to launch an interactive preview of your game. You can:
+Once generation is complete, Click the **▶️ Play** button at any time to launch an interactive preview of your game. You can:
 
 - Test character interactions and branching choices  
 - Review scene transitions and story progression  
@@ -80,64 +70,5 @@ Click the **▶️ Play** button at any time to launch an interactive preview of
 Playtest early, playtest often — it's the fastest way to refine your game.
 
 ---
-
-## 🧪 Sync Across Platforms
-
-Games created on the web are automatically synced with your Jabali account and can also be accessed:
-
-- In Discord using `/listgames` and `/loadgame`
-- On other devices via the web app
-
-Create in one place, continue in another — seamlessly.
-
----
-
-## 🧠 Tips for Using the Web Editor
-
-- Use the **Prompt Sidebar** to keep your prompt ideas organized
-- Rename your scenes and characters early to stay organized
-- Use the **Zoom** and **Grid View** to manage large projects visually
-- Combine AI-generated assets with your own uploads for custom flair
-
----
-
-## 🔗 Related Guides
-
-- [Editing Game Content in Discord](editing-game-content.md)  
-- [Editing Prompts for Asset Generation](asset-prompt-tips.md)  
-- [Uploading Custom Content](uploading-content.md)  
-- [Build a Character Simulation Game](tutorials/character-sim.md)  
-
----
-
 Jabali’s web app gives you the tools to build, play, and polish your game — all in one place. ✨  
-Start creating today at [https://app.jabali.dev](https://app.jabali.dev)
-
-
-## Sign Up
-
-## Homepage
-
-
-
-## 🎯 Genre Description
-
-- **Character Life Simulation** - Befriend and adventure with  AI characters with feelings.
-
-- **Branching Interactive Story** -  Every choice you make spins the tale in a new direction—like a choose-your-own adventure with more drama (and fewer bookmarks). 📖✨
-
-- **Dungeon Crawler RPG** -  Dive into dark dungeons, smash monsters, hoard loot, and totally ignore the main quest. 🗡️🧀
-
-- **Visual Novel** - Like reading a book, but the characters flirt with you and remember everything you say. 💌📚
-
-- **Crossing Arcade** - Dodge obstacles, leap rivers, and question your life choices—one pixel at a time. 🐸🚧
-
-- **Block Breaking Arcade** - Smash bricks, chase power-ups, and pray the ball doesn’t betray you. 🧱⚡🕹️
-
-- **Fixed Shooter Arcade** - Move and keep your trigger finger ready to save the galaxy. 👾🔫🚀
-
-- **Match 3** - Swap, pop, and drop your way to victory—because three of anything is always a party. 🍬💥🎉
-
-- **Strategic Defense Arcade** - Build, blast, and outsmart waves of baddies with big brains and bigger turrets. 🧠🔧🛡️
-
-- **Hidden Object Game** - A delightful mess where your eyes play detective and the clutter hides the story. 🔍🧩🪄
+Start creating today at [https://build.production.jabali.ai](https://build.production.jabali.ai)

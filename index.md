@@ -17,14 +17,14 @@ Ready to dive in? Choose how you'd like to build:
 
 ---
 
-## 📚 Core Concepts [Coming Soon]
+## 📚 Core Concepts
 
 Understand how the engine works and what you can build:
 
-- 🎯 [How It Works](core/how-it-works.md)
 - 🧠 [Prompting Guide](core/prompting.md)
-- 🧩 [Story, Characters & Assets](core/story-characters-assets.md)
-- 🔄 [Asset Generation, Prompt Engineering & Content Management](core/generation-and-management.md)
+- 🧩 [Editing Game Seed](game-seed.md)
+- 🖌️ [Prompt Editing](prompt-editing.md)
+- 🔄 [Custom Content](upload-content.md)
 
 ---
 
