@@ -65,11 +65,11 @@ To edit, simply click on any content block and revise it inline. Changes are aut
 
 ## 📁 Uploading Custom Content
 
-Uploading custom content is currently not supported on the Web and will be added soon.
+Uploading custom content is currently **not supported** on the Web and will be added soon.
 
 ---
 
-## ▶️ Previewing & Playtesting
+## ▶️ Publishing & Playtesting
 
 Click the **▶️ Play** button at any time to launch an interactive preview of your game. You can:
 

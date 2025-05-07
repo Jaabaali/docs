@@ -1,1 +1,16 @@
-theme: jekyll-theme-minimal
+title: Jabali Docs
+description: Create AI-powered games with just a prompt.
+theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+
+# Enable navigation in the sidebar
+# Make sure to use pages with correct front matter
+just_the_docs:
+  logo: "/images/logo.jpeg"   # Optional: path to your logo image
+  aux_links:
+    "Back to Jabali":
+      - "https://jabali.ai"
+  search_enabled: true
+  heading_anchors: true
+  nav_sort: case_sensitive
