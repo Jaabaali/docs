@@ -1,6 +1,6 @@
 title: Jabali Docs
 description: Create AI-powered games with just a prompt.
-theme: just-the-docs
+theme: jekyll-theme-cayman
 remote_theme: just-the-docs/just-the-docs
 color_scheme: light
 
