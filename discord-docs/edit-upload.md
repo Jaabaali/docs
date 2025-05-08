@@ -43,4 +43,4 @@ During the game generation process look for the **EDIT DATA** button below each 
 - Be descriptive, not vague: Instead of "cool character", try "a wandering bard with neon tattoos and a cyber-harp."
 - Test your edits to ensure they are being carried over to other parts of the game. 
 
-Next: [Uploading Content](discord-docs/upload-content.md)
+Next: [Uploading Content](upload-content.md)

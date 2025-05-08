@@ -61,4 +61,4 @@ You want to give **just enough detail** to guide the AI — not so much that it 
 **❌ Too Long-Winded:**
 > The game takes place in a highly detailed alpine environment where various forest-dwelling animals form a socio-political structure governed by a council of owls. The player navigates this structure through a variety of letter delivery mechanics, seasonal quests, and reputation-building...
 
-Next: [Picking Genres](discord-docs/create-discord-genres.md)
+Next: [Picking Genres](create-discord-genres.md)

@@ -48,4 +48,4 @@ A narrative-driven resource management game where you play as Nova, a reclusive 
 [AI-generated image of Nova in a glowing engine room surrounded by floating toolbots]
 
 
-Next: [Editing Content](discord-docs/edit-upload.md)
+Next: [Editing Content](edit-upload.md)

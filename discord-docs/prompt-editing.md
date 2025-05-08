@@ -116,4 +116,4 @@ Use this structure when crafting character prompts:
 By mastering your prompts, you can turn simple ideas into stunning game visuals. 🎨  
 Keep experimenting and let your creativity lead the way!
 
-Next: [Game Seed and Concept](discord-docs/game-seed.md)
+Next: [Game Seed and Concept](game-seed.md)
