@@ -14,4 +14,4 @@ Your game is also playable through the [Jabali website](https://play.production.
 
 ![Jabali Play Website](images/jabali-play-website.jpg)
 
-Next: [Prompt Editing](prompt-editing.md)
+Next: [Prompt Editing](discord-docs/prompt-editing.md)

@@ -11,7 +11,7 @@ Whether you're a developer, hobbyist, student, or part of a small studio, Jabali
 
 Ready to dive in? Choose how you'd like to build:
 
-- 🧵 [Use on Discord](discord.md): Create games directly in Discord using simple slash commands.
+- 🧵 [Use on Discord](discord-docs/discord.md): Create games directly in Discord using simple slash commands.
 - 🌐 [Use on Web](web.md): Drag, drop, and prompt your way to full games in our online editor.
 - 💻 Use the Desktop App *(coming soon!)*: For full control and advanced editing on Mac & Windows.
 

@@ -28,4 +28,4 @@ Just using /make means the genre will be inferred based on the given prompt. If 
 
 - **Hidden Object Game** - A delightful mess where your eyes play detective and the clutter hides the story. 🔍🧩🪄
 
-Next: [Build and Publish your Game](build-publish.md)
+Next: [Build and Publish your Game](discord-docs/build-publish.md)

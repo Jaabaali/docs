@@ -27,4 +27,4 @@ Go to the Registration channel and complete Registration by clikcing the 'CLICK 
 ![Discord Registration](images/discord-registration.webp)
 
 
-Next: [Creating your first game on Discord](create-discord.md)
+Next: [Creating your first game on Discord](discord-docs/create-discord.md)
