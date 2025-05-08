@@ -51,3 +51,10 @@ If you like it, hit **Create Game**.
 ## 🧍 Step 4: Define Your Player and Characters
 Use character prompts to define the player and key NPCs:
 
+![alt text](char.png)
+
+## Step 5 : Edit Scenes 
+Next up, different locations where the story unfolds will be generated. You can edit the prompt to regeenrate the images of these locations. 
+
+![alt text](locations.png)
+## 🗺️ Step 6: Create Branching Scenes
