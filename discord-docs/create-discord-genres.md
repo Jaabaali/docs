@@ -2,7 +2,7 @@
 Just using /make means the genre will be inferred based on the given prompt. If instead, you will like to specify the genre, you will need to use the genre option as part of the /make command. 
 
 <video width="100%" height="auto" controls>
-  <source src="animation/discord-make-genres.mp4" type="video/mp4">
+  <source src="../animation/discord-make-genres.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 

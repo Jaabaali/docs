@@ -33,8 +33,8 @@ These settings affect the overall tone and feel of your entire game. Edit them t
 
 During the game generation process look for the **EDIT DATA** button below each generated piece of content. Clicking it will bring up a dialog for you to directly edit the content. 
 
-![Edit Data Button](edit-data.png)
-![alt text](edit-data-form.png)
+![Edit Data Button](../images/edit-data.png)
+![alt text](../images/edit-data-form.png)
 
 ## Best Practices
 

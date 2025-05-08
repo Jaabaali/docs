@@ -29,7 +29,7 @@ Visual Style: Cartoon sci-fi, pastel colors, side-view sprites
 ```
 ### ✏️ Editing the Seed
 You can edit any part of the seed before the full game is generated. 
-![alt text](edit-seed.png)
+![alt text](../images/edit-seed.png)
 
 ## 🎮 What is a Game Concept?
 Based on your seed, Jabali creates a Game Concept: a polished, high-level pitch of your game. It includes:

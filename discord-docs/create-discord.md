@@ -5,7 +5,7 @@ To create your first game, head over to the [#builder-playground](https://discor
 Once you are there, you can use the **/make** command and your prompt to generate your game. 
 
 <video width="100%" height="auto" controls>
-  <source src="animation/discord-make.mp4" type="video/mp4">
+  <source src="../animation/discord-make.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -19,7 +19,6 @@ Creating AI-powered games with Jabali starts with a good prompt. Your prompt is 
 Use the tips below to get better results and build the game you imagine.
 
 ---
-
 ## 🎯 1. Start with the Game Concept
 
 Describe the **core idea** of your game in 1–2 sentences. Think of it as your game’s elevator pitch.
@@ -31,7 +30,6 @@ Describe the **core idea** of your game in 1–2 sentences. Think of it as your 
 > A cool story game.
 
 ---
-
 ## 🏗 2. Use Clear Structure in Prompts
 
 Break down your prompt into **components**. This helps Jabali better understand the elements you're imagining.
@@ -45,9 +43,7 @@ Break down your prompt into **components**. This helps Jabali better understand 
 
 **Example:**
 > A sci-fi visual novel set on a space station orbiting a dying star. The player is an AI maintenance bot who uncovers a conspiracy. The tone is dark and mysterious.
-
 ---
-
 ## 🧠 3. Be Descriptive, but Not Overloaded
 
 You want to give **just enough detail** to guide the AI — not so much that it becomes rigid or confusing.

@@ -17,14 +17,14 @@ To begin, you’ll need to join the Discord server:
 
 Once you've joined the Jabali server head over and get your self [verified].(https://discord.com/channels/1203127836844494850/1343882788751015988) 
 
-![Alt text](images/discord-verify.webp)
+![Alt text](../images/discord-verify.webp)
 
 ---
 
 ## Step 3: Complete Registration 
 Go to the Registration channel and complete Registration by clikcing the 'CLICK HERE TO REGISTER' link
 
-![Discord Registration](images/discord-registration.webp)
+![Discord Registration](../images/discord-registration.webp)
 
 
 Next: [Creating your first game on Discord](create-discord.md)
