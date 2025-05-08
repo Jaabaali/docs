@@ -22,9 +22,9 @@ Ready to dive in? Choose how you'd like to build:
 Understand how the engine works and what you can build:
 
 - 🧠 [Prompting Guide](core/prompting.md)
-- 🧩 [Editing Game Seed](game-seed.md)
-- 🖌️ [Prompt Editing](prompt-editing.md)
-- 🔄 [Custom Content](upload-content.md)
+- 🧩 [Editing Game Seed](discord/game-seed.md)
+- 🖌️ [Prompt Editing](discord/prompt-editing.md)
+- 🔄 [Custom Content](discord/upload-content.md)
 
 ---
 
