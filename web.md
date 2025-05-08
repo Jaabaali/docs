@@ -61,11 +61,14 @@ Uploading custom content is currently **not supported** on the Web and will be a
 
 ## ▶️ Publishing & Playtesting
 
-Once generation is complete, Click the **▶️ Play** button at any time to launch an interactive preview of your game. You can:
+Once generation is complete, Click the **Publish** button after the game is generated to build your game 
 
-- Test character interactions and branching choices  
-- Review scene transitions and story progression  
-- Simulate gameplay mechanics for arcade-style games  
+![alt text](images/web-publish.png)
+
+Once published you will be able to play the game in your browser.
+
+![alt text](images/web-play.png)
+
 
 Playtest early, playtest often — it's the fastest way to refine your game.
 
