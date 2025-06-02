@@ -74,7 +74,8 @@ You can use Co-Pilot to:
 
 ## 🔗 Related Pages
 
-- [Prompting Guide](../prompting.md)  
+- [Prompting Guide](../prompting.md)
+- [Editor FAQ](editor-faq.md)   
 
 ---
 

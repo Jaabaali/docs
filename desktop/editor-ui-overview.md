@@ -114,14 +114,5 @@ This will:
 
 ---
 
-## 🔗 Related Pages
-
-- [Installing the Editor](editor-installation.md)  
-- [Editing Content](editor-editing.md)  
-- [Using Co-Pilot](editor-copilot.md)  
-- [Publishing Your Game](editor-publishing.md)
-
----
-
 Ready to dive in?  
-Explore your game like never before with Jabali’s powerful, prompt-driven editor.
+Explore your game like never before with [Jabali’s powerful, prompt-driven editor](editor-copilot.md).
