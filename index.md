@@ -1,4 +1,7 @@
+---
+title: Welcome to Jabali 
 nav_order: 1
+---
 
 # 🎮 Welcome to Jabali Docs
 
