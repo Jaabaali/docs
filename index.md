@@ -13,7 +13,7 @@ Ready to dive in? Choose how you'd like to build:
 
 - 🧵 [Use on Discord](discord-docs/discord.md): Create games directly in Discord using simple slash commands.
 - 🌐 [Use on Web](web.md): Drag, drop, and prompt your way to full games in our online editor.
-- 💻 Use the Desktop App *(coming soon!)*: For full control and advanced editing on Mac & Windows.
+- 💻 [Use on Desktop](editor.md)Use the Desktop App: For full control and advanced editing on Mac & Windows.
 
 ---
 
@@ -32,7 +32,6 @@ Understand how the engine works and what you can build:
 
 Learn by doing! These step-by-step guides walk you through making your first games:
 
-- 🐿 [Build a Character Simulation Game](tutorials/character-sim.md)
 - 📖 [Create an Interactive Story](tutorials/interactive-story.md)
 
 ---

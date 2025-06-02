@@ -57,5 +57,3 @@ Use character prompts to define the player and key NPCs:
 Next up, different locations where the story unfolds will be generated. You can edit the prompt to regeenrate the images of these locations. 
 
 ![alt text](locations.png)
-## 🗺️ Step 6: Create Chapters
-![alt text](image-2.png)
