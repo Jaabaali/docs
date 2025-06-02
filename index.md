@@ -1,3 +1,5 @@
+nav_order: 1
+
 # 🎮 Welcome to Jabali Docs
 
 **Create AI-powered games with just a prompt.**  
