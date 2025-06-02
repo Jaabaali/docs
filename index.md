@@ -18,7 +18,7 @@ Ready to dive in? Choose how you'd like to build:
 
 - 🧵 [Use on Discord](discord-docs/discord.md): Create games directly in Discord using simple slash commands.
 - 🌐 [Use on Web](web.md): Drag, drop, and prompt your way to full games in our online editor.
-- 💻 Use on Desktop: **Coming Soon** Use the Desktop App: For full control and advanced editing on Mac & Windows.
+- 💻 Use on Desktop: (**Coming Soon**) Use the Desktop App: For full control and advanced editing on Mac & Windows.
 
 ---
 
