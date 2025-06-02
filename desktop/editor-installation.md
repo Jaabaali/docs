@@ -1,14 +1,17 @@
 # 🛠 Installing the Jabali Desktop Editor
 
 ## Windows Installation
-1. Download the `.exe` installer from [https://jabali.dev/download](https://jabali.dev/download)
+1. Download the `.exe` installer from [The jabali Website](https://play.production.jabali.ai/setup/)
 2. Run the installer and follow the on-screen steps
 3. Launch the Jabali Editor
+4. If you see a pop-up like the one below, first click "More info", then click "Run anyway"
+![alt text](windows-protect.png)
 
 ## Mac Installation
-1. Download the `.dmg` file from [https://jabali.dev/download](https://jabali.dev/download)
+1. Download the `.dmg` file from [The jabali Website](https://play.production.jabali.ai/setup/)
 2. Drag the app to `Applications`
 3. If you see a security warning, right-click the app and choose **Open**
+4. Run the command in Terminal app _xattr -c /Applications/Jabali\ Game\ Editor.app/_
 
 ## System Requirements
 - **Windows**: 10 or later
