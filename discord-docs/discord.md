@@ -15,7 +15,7 @@ To begin, you’ll need to join the Discord server:
 
 ## ✍️ Step 2: Get Verified
 
-Once you've joined the Jabali server head over and get your self [verified].(https://discord.com/channels/1203127836844494850/1343882788751015988) 
+Once you've joined the Jabali server head over and get your self [verified](https://discord.com/channels/1203127836844494850/1343882788751015988).
 
 ![Alt text](../images/discord-verify.webp)
 
