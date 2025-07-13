@@ -9,7 +9,6 @@ The Jabali Desktop Editor gives you full control over your AI-generated games on
 - Upload branded visuals and sounds
 - Playtest and publish directly from your desktop
 
-## 🔗 Next Steps
-- [Getting Started](desktop/editor-installation.md)
-- [Editor UI Overview](desktop/editor-ui-overview.md)
-- [Using the Jabali Co-Pilot](desktop/editor-copilot.md)
+## 🔗 To Request Access 
+- Visit https://www.jabali.ai/setup/
+
