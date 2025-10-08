@@ -6,7 +6,7 @@ nav_order: 1
 # 🎮 Welcome to Jabali Docs
 
 **Create AI-powered games with just a prompt.**  
-Whether you're a developer, hobbyist, student, or part of a small studio, Jabali lets you build story-rich 2D games in minutes — no coding required.
+Whether you're a developer, hobbyist, student, or part of a small studio, Jabali lets you build story-rich 2D and 3D games in minutes — no coding required.
 
 > ✨ Create visual novels, character sims, roguelite RPGs, and arcade games with natural language prompts.
 
@@ -16,7 +16,6 @@ Whether you're a developer, hobbyist, student, or part of a small studio, Jabali
 
 Ready to dive in? Choose how you'd like to build:
 
-- 🧵 [Use on Discord](discord-docs/discord.md): Create games directly in Discord using simple slash commands.
 - 🌐 [Use on Web](web.md): Drag, drop, and prompt your way to full games in our online editor.
 - 💻 Use on Desktop: (**Coming Soon**) Use the Desktop App: For full control and advanced editing on Mac & Windows.
 
