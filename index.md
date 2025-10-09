@@ -25,19 +25,7 @@ Ready to dive in? Choose how you'd like to build:
 
 Understand how Jabali works and what you can build:
 
-- [AI-Assistant](core/bali-assistant.md)
 - 🧠 [Prompting Guide](core/prompting.md)
-- 🧩 [Editing Game Seed](discord-docs/game-seed.md)
-- 🖌️ [Prompt Editing](discord-docs/prompt-editing.md)
-- 🔄 [Custom Content](discord-docs/upload-content.md)
-
----
-
-## 🛠 Tutorials
-
-Learn by doing! These step-by-step guides walk you through making your first games:
-
-- 📖 [Create an Interactive Story](tutorials/interactive-story.md)
 
 ---
 
