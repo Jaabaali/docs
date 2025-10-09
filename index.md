@@ -16,15 +16,16 @@ Whether you're a developer, hobbyist, student, or part of a small studio, Jabali
 
 Ready to dive in? Choose how you'd like to build:
 
-- 🌐 [Use on Web](web.md): Drag, drop, and prompt your way to full games in our online editor.
-- 💻 Use on Desktop: (**Coming Soon**) Use the Desktop App: For full control and advanced editing on Mac & Windows.
+- 🌐 [Jabali Web](web.md): Drag, drop, and prompt your way to full games in our online editor.
+- 💻 [Jabali Studio](https://docs.google.com/document/d/1ttJYD9ofGTRT-QdyO01d1myPt3ue83gyOvhzNUL6qDg/edit?tab=t.0#heading=h.d03hvqdoahfb): Use the Desktop App for Mac OS and Windows for full control and advanced editing on Mac & Windows.
 
 ---
 
 ## 📚 Core Concepts
 
-Understand how the engine works and what you can build:
+Understand how Jabali works and what you can build:
 
+- [AI-Assistant](core/bali-assistant.md)
 - 🧠 [Prompting Guide](core/prompting.md)
 - 🧩 [Editing Game Seed](discord-docs/game-seed.md)
 - 🖌️ [Prompt Editing](discord-docs/prompt-editing.md)
