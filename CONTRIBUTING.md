@@ -20,12 +20,10 @@ src/
   content/docs/        ← every page, as Markdown (.md) or MDX (.mdx)
     index.mdx          ← home page
     studio/            ← Jabali Studio
-    web.md             ← Jabali Web
-    discord/           ← Jabali on Discord
-    guides/  tutorials/
+    web.md             ← Jabali Web (placeholder: docs coming soon)
     support.md  contributing.md
   assets/              ← screenshots and images, one folder per section
-public/                ← files served as-is (favicon, social image, videos)
+public/                ← files served as-is (favicon, social image)
 astro.config.mjs       ← site settings and the sidebar
 ```
 
