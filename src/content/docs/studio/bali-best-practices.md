@@ -1,6 +1,6 @@
 ---
 title: Bali best practices for building games
-description: Get better results from Bali in Jabali Studio. Size tasks well, write useful bug reports, pick Autonomous or Collaborative mode, and reset when stuck.
+description: Get better results from Bali in Jabali Studio. Size tasks well, write useful bug reports, pick the right behavior mode, and reset when stuck.
 sidebar:
   label: Bali best practices
 ---
@@ -95,7 +95,7 @@ This is hard to fix because Bali doesn't know when the lag happens, what the pla
 
 ## Choose the right agent behavior
 
-Bali may support different working behaviors, such as **Autonomous** and **Collaborative** modes. Pick the one that matches how clear your goal is.
+Bali has four working behaviors: **Autonomous**, **Collaborative**, **Cautious** and **Creative**. Pick the one that matches how clear your goal is. Change it from the model chip next to **+** in the chat, or in **Project Settings → AI Settings → Behavior**. See [Models and behavior](/docs/studio/models-and-behavior/#behavior).
 
 ### Autonomous mode
 
@@ -119,6 +119,22 @@ Use Collaborative mode when you're still exploring ideas or want Bali to confirm
 - You're designing a system for the first time
 
 Collaborative mode is great when you want Bali to help shape the idea with you.
+
+### Cautious mode
+
+Use Cautious mode when you want to approve each step. Bali explains what it plans to do and asks for confirmation before making changes. It's useful when:
+
+- You're working on a fragile or complex part of the game
+- You want to learn how the game works as Bali changes it
+- You're close to publishing and want to avoid surprises
+
+### Creative mode
+
+Use Creative mode when you want ideas, not just execution. On bigger tasks, Bali proactively suggests new ideas and experimental changes beyond what you asked for. It's useful when:
+
+- You're brainstorming mechanics, story beats or visual directions
+- You want variations to choose from
+- The game feels flat and you want fresh angles
 
 ## Start with the most complex part first
 
@@ -167,7 +183,7 @@ When this happens, it's fine to reset the chat and explain the problem from a ne
 
 ### How to reset your approach
 
-1. Reset the chat.
+1. Reset the chat: click **Reset Thread** at the top of Bali's panel. This clears the conversation but doesn't change your project.
 2. Summarize the current issue.
 3. Include what you've already tried.
 4. Explain the desired outcome.
@@ -230,7 +246,7 @@ Before you ask Bali for a change, check:
 - Did I mention the scene, asset, script or system involved?
 - If I'm reporting a bug, did I include reproduction steps?
 - If there are errors, did I include logs?
-- Do I need Autonomous mode or Collaborative mode?
+- Which behavior do I need: Autonomous, Collaborative, Cautious or Creative?
 - Should I save a version before making this change?
 
 ## Final tip
