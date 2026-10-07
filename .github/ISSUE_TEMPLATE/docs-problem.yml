@@ -1,0 +1,25 @@
+name: Something in the docs is wrong or unclear
+description: Report an error, outdated screenshot, broken link or confusing explanation.
+title: "[Docs]: "
+labels: ["docs-fix"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      description: Link to the page with the problem.
+      placeholder: https://jaabaali.github.io/docs/studio/install/
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Quote the text or describe the screenshot that's incorrect or unclear.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What should it say instead?
+      description: Optional, but very helpful. You can also fix it yourself with the "Edit page" link at the bottom of any page.

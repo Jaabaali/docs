@@ -1,0 +1,22 @@
+name: Request a new page or topic
+description: Suggest something the docs should cover.
+title: "[Request]: "
+labels: ["docs-request"]
+body:
+  - type: textarea
+    id: topic
+    attributes:
+      label: What should we document?
+      description: Describe the feature, task or question you couldn't find an answer to.
+    validations:
+      required: true
+  - type: dropdown
+    id: product
+    attributes:
+      label: Which product is this about?
+      options:
+        - Jabali Studio
+        - Jabali Web
+        - General / all
+    validations:
+      required: true
