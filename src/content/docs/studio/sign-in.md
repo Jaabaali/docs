@@ -1,11 +1,11 @@
 ---
 title: Sign in to Jabali Studio
-description: Sign in to Jabali Studio with your Google or Discord account. Your games from Jabali Web and Discord sync automatically after you sign in.
+description: Sign in to Jabali Studio with your Google or Discord account. Your Jabali Web games sync automatically after you sign in.
 sidebar:
   label: Sign in
 ---
 
-You sign in to Jabali Studio with the same Google or Discord account you use for Jabali. After you sign in, Studio syncs the games you created on Jabali Web, on Discord or in Studio.
+You sign in to Jabali Studio with the same Google or Discord account you use for Jabali. After you sign in, Studio syncs the games you created on Jabali Web or in Studio.
 
 :::caution
 You need a Jabali account linked to Discord or Google to access your projects.

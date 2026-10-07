@@ -1,11 +1,11 @@
 ---
 title: Open an existing project in Jabali Studio
-description: Open games you created in Jabali Studio, on Jabali Web or with the Jabali Discord bot. Everything syncs to Your Projects after you sign in.
+description: Open games you created in Jabali Studio or on Jabali Web. Everything syncs to Your Projects after you sign in.
 sidebar:
   label: Open a project
 ---
 
-After you sign in, Jabali Studio syncs every game you created on Discord, on Jabali Web or in the desktop app. You'll find them all under **Your Projects**.
+After you sign in, Jabali Studio syncs every game you created on Jabali Web or in the desktop app. You'll find them all under **Your Projects**.
 
 ![The Your Projects library in Jabali Studio showing a grid of games with posters and genres](../../../assets/studio/your-projects-library.webp)
 

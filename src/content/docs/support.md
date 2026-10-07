@@ -1,6 +1,6 @@
 ---
 title: Get help with Jabali
-description: Where to get help with Jabali Studio, Jabali Web and the Jabali Discord bot, how to report bugs, and how to report problems with these docs.
+description: Where to get help with Jabali Studio, how to report bugs in the app, and how to report problems with these docs.
 sidebar:
   label: Support
 ---

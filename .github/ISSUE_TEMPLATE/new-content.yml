@@ -17,7 +17,6 @@ body:
       options:
         - Jabali Studio
         - Jabali Web
-        - Jabali on Discord
         - General / all
     validations:
       required: true
