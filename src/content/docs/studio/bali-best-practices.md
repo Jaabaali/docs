@@ -27,7 +27,7 @@ Large tasks can be too broad:
 Make the whole game better and add five new systems.
 ```
 
-Medium tasks are usually the most effective:
+Medium tasks are usually more effective:
 
 ```text
 Improve the first level by adding two new obstacles, one collectible, and a clearer goal for the player.
@@ -155,7 +155,7 @@ This keeps your project easier to debug and improves the quality of each step.
 
 ## Reset the chat when Bali gets stuck
 
-Sometimes Bali gets stuck in a context loop, trying to fix the same thing the same way even when the approach isn't working. Signs Bali may be stuck:
+Sometimes Bali may get stuck in a context loop, trying to fix the same thing the same way even when the approach isn't working. Signs Bali may be stuck:
 
 - It repeatedly changes the same file without solving the issue
 - It keeps suggesting the same fix
@@ -194,7 +194,7 @@ Desired behavior:
 The enemy should turn around or choose a new patrol point when it reaches a wall.
 ```
 
-A fresh prompt with better context helps Bali choose a better solution.
+A fresh prompt with better context can help Bali choose a better solution.
 
 ## Ask Bali to explain before changing
 
@@ -205,7 +205,7 @@ If you're unsure why something is happening, ask Bali to explain the current sta
 - *"Why does the game generate terrain after the player starts walking?"*
 - *"What could be causing this frame rate drop?"*
 
-Understanding the system first makes your next prompt much more effective.
+Understanding the system first can make your next prompt much more effective.
 
 ## Save after major changes
 
