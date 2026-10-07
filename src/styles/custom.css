@@ -1,0 +1,35 @@
+/* Jabali brand colours for Starlight. Red #eb4347 comes from the Jabali Studio UI. */
+
+/* Dark theme. Only accent colours are set; Starlight swaps the greys for light mode. */
+:root {
+	--sl-color-accent-low: #3d1214;
+	--sl-color-accent: #eb4347;
+	--sl-color-accent-high: #ff7a7d;
+}
+
+/* Light theme: a deeper red keeps links readable (WCAG AA contrast on white). */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #fde0e1;
+	--sl-color-accent: #c7262c;
+	--sl-color-accent-high: #6e1013;
+}
+
+/* Screenshots: soft frame so dark UI captures don’t bleed into the dark page. */
+.sl-markdown-content img:not(.hero img) {
+	border: 1px solid var(--sl-color-hairline);
+	border-radius: 0.5rem;
+}
+
+/* Videos fill the content column. */
+.sl-markdown-content video {
+	width: 100%;
+	height: auto;
+	border-radius: 0.5rem;
+	border: 1px solid var(--sl-color-hairline);
+}
+
+/* Header logo size */
+.site-title img {
+	height: 1.6rem;
+	width: auto;
+}
