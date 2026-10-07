@@ -1,0 +1,65 @@
+---
+title: Build AI-generated games with Jabali
+description: Official Jabali documentation. Create, playtest and publish AI-generated games with Jabali Studio, Jabali Web and the Jabali Discord bot.
+template: splash
+hero:
+  title: Jabali Docs
+  tagline: Create AI-powered games with just a prompt. Learn to build, playtest and publish with Jabali Studio, Jabali Web and Discord.
+  image:
+    file: ../../assets/studio/studio-interface-overview.webp
+    alt: Jabali Studio with Bali's chat on the left and a 3D game preview on the right
+  actions:
+    - text: Get started with Jabali Studio
+      link: /docs/studio/
+      icon: right-arrow
+    - text: Join the Discord
+      link: https://discord.gg/jabali
+      icon: discord
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+Whether you're a developer, hobbyist, student or part of a small studio, Jabali lets you build story-rich 2D and 3D games in minutes, no coding required. Create visual novels, character sims, roguelite RPGs and arcade games with natural-language prompts, then refine them with **Bali**, Jabali's AI Producer.
+
+## Choose how you build
+
+<CardGrid>
+	<LinkCard
+		title="Jabali Studio"
+		description="The desktop app for Windows and Mac. Templates, Phaser and Godot projects, script and layout editing, version history and publishing."
+		href="/docs/studio/"
+	/>
+	<LinkCard
+		title="Jabali Web"
+		description="Prompt, generate and customize games in your browser at jabali.ai."
+		href="/docs/web/"
+	/>
+	<LinkCard
+		title="Jabali on Discord"
+		description="Make games with the /make command right inside the Jabali Discord server."
+		href="/docs/discord/"
+	/>
+	<LinkCard
+		title="Prompting guide"
+		description="Write prompts that produce better games, characters and assets."
+		href="/docs/guides/prompting/"
+	/>
+</CardGrid>
+
+## Popular pages
+
+<CardGrid>
+	<Card title="New to Studio?" icon="rocket">
+		[Install Jabali Studio](/docs/studio/install/), [sign in](/docs/studio/sign-in/) and [create your first game](/docs/studio/create-a-game/).
+	</Card>
+	<Card title="Working with Bali" icon="puzzle">
+		[Use Bali](/docs/studio/bali/) to edit and debug your game, and learn the [best practices](/docs/studio/bali-best-practices/) for great results.
+	</Card>
+	<Card title="Stuck?" icon="information">
+		Check the [Studio FAQ](/docs/studio/faq/) or [get help](/docs/support/) from the team on Discord.
+	</Card>
+	<Card title="Help improve these docs" icon="pencil">
+		Anyone can suggest changes. [Learn how to contribute](/docs/contributing/).
+	</Card>
+</CardGrid>
