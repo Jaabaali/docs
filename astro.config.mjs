@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 import starlightLinksValidator from 'starlight-links-validator';
 import starlightLlmsTxt from 'starlight-llms-txt';
 
@@ -8,8 +9,11 @@ import seoExtras from './src/integrations/seo-extras.mjs';
 import { legacyRedirects } from './src/legacy-redirects.mjs';
 import { SITE, BASE, SITE_ROOT, REPO, BRANCH } from './src/site.config.mjs';
 
+// Placeholder pages marked `noindex` in their frontmatter. Keep them out of the sitemap too.
+const NOINDEX_PATHS = ['/web/'];
+
 const DESCRIPTION =
-	'Official Jabali documentation. Learn to create, playtest and publish AI-generated games with Jabali Studio, Jabali Web and the Jabali Discord bot.';
+	'Official Jabali documentation. Learn to create, playtest and publish AI-generated games with Jabali Studio, the desktop app for Windows and Mac.';
 
 // https://astro.build/config
 export default defineConfig({
@@ -70,27 +74,8 @@ export default defineConfig({
 						'studio/faq',
 					],
 				},
-				{
-					label: 'Jabali Web',
-					items: ['web'],
-				},
-				{
-					label: 'Jabali on Discord',
-					items: [
-						'discord',
-						'discord/create-a-game',
-						'discord/genres',
-						'discord/game-seed',
-						'discord/edit-content',
-						'discord/asset-prompts',
-						'discord/upload-content',
-						'discord/build-and-publish',
-					],
-				},
-				{
-					label: 'Guides & tutorials',
-					items: ['guides/prompting', 'tutorials/interactive-story'],
-				},
+				// Placeholder page with a "Coming soon" badge until the Web docs are rewritten.
+				'web',
 				{
 					label: 'Help',
 					items: ['support', 'contributing'],
@@ -105,26 +90,16 @@ export default defineConfig({
 				starlightLlmsTxt({
 					projectName: 'Jabali',
 					description:
-						'Jabali is an AI game creation platform. Players and creators describe a game in natural language and Jabali’s AI agents (led by Bali, the AI Producer) generate a playable game that can be edited and published. Jabali is available as a desktop app (Jabali Studio, Windows and macOS), a web app (Jabali Web at jabali.ai) and a Discord bot.',
+						'Jabali is an AI game creation platform. Creators describe a game in natural language and Jabali’s AI agents (led by Bali, the AI Producer) generate a playable game that can be edited and published. These docs cover Jabali Studio, the desktop app for Windows and macOS.',
 					details: [
 						'- Jabali Studio is the most capable surface: it supports Phaser (2D) and Godot (2D/3D) projects, templates, vibe-coding with Bali, asset/layout/script editing, version history and publishing.',
-						'- Bali is the built-in AI Producer agent in every Jabali surface.',
-						'- Games made on Discord or the web sync to Jabali Studio after sign-in.',
+						'- Bali is the AI Producer agent built into Jabali Studio.',
+						'- Games made on Jabali Web (jabali.ai) sync to Jabali Studio after sign-in.',
 						'- For support, the Jabali team is on Discord: https://discord.gg/jabali',
 					].join('\n'),
-					customSets: [
-						{
-							label: 'Jabali Studio',
-							description: 'the Jabali Studio desktop app and the Bali AI Producer',
-							paths: ['studio/**'],
-						},
-						{
-							label: 'Jabali on Discord',
-							description: 'creating and editing games with the Jabali Discord bot',
-							paths: ['discord/**'],
-						},
-					],
 					promote: ['index*', 'studio/**'],
+					// The Jabali Web page is a "coming soon" placeholder, so keep it out of the AI copies.
+					exclude: ['web'],
 					// Drop the "Section titled …" heading-anchor links from the AI-readable copies.
 					customSelectors: { all: ['.sl-anchor-link'] },
 					optionalLinks: [
@@ -135,6 +110,8 @@ export default defineConfig({
 				}),
 			],
 		}),
+		// Starlight adds a sitemap automatically; this explicit one lets us leave out noindex pages.
+		sitemap({ filter: (page) => !NOINDEX_PATHS.some((path) => page.endsWith(path)) }),
 		seoExtras({ redirects: legacyRedirects }),
 	],
 });

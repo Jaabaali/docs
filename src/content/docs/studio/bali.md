@@ -49,7 +49,7 @@ You can use Bali to:
 ## Limitations
 
 - Bali works best on one project at a time.
-- Bali can't see drafts that exist only on Discord or Jabali Web. Open them in Studio first.
+- Bali can't see drafts that exist only on Jabali Web. Open them in Studio first.
 - Regenerating assets can take longer than text edits.
 
 ## Use cases
@@ -64,5 +64,4 @@ Let Bali handle the heavy lifting while you focus on creativity.
 ## Related pages
 
 - [Bali best practices](/docs/studio/bali-best-practices/)
-- [Prompting guide](/docs/guides/prompting/)
 - [Jabali Studio FAQ](/docs/studio/faq/)
