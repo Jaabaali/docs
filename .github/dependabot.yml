@@ -1,0 +1,14 @@
+# Keeps Astro, Starlight and the GitHub Actions up to date with monthly PRs.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      astro:
+        patterns: ["astro", "@astrojs/*", "starlight-*", "sharp"]
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

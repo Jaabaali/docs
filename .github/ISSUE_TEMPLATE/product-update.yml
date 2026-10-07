@@ -1,0 +1,37 @@
+name: Product update needs docs
+description: A released Jabali feature or change that the docs should reflect. (For the Jabali team and the automated update workflow.)
+title: "[Product update]: "
+labels: ["product-update"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only file this for changes that are **already released and announced**. This repository is public.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options:
+        - Jabali Studio
+        - Jabali Web
+        - Jabali on Discord
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: Link to the public announcement or release notes.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed for users?
+    validations:
+      required: true
+  - type: textarea
+    id: pages
+    attributes:
+      label: Pages that need updating
+      description: List the docs pages affected, if you know them.
