@@ -31,6 +31,17 @@ If you see a Windows pop-up when you launch Jabali Studio, first click **More in
 1. Download the `.dmg` file from the [Jabali Studio download page](https://jabali.ai/jabalistudio).
 2. Drag the app to your **Applications** folder.
 
+## Update Jabali Studio
+
+Studio checks for updates while it's running. When a new version is available, a notification appears:
+
+1. Click **Update** to download the new version. A progress bar shows the download.
+2. Click **Quit and Install** to restart into the new version. If you'd rather keep working, the update installs automatically the next time you quit Studio.
+
+On Mac, you can also check at any time from the app menu: **Jabali Studio → Check for Updates...**. If your version is too old to keep working, Studio asks you to update before you continue.
+
+See [What's new](/docs/studio/whats-new/) for what changed in each release.
+
 ## Next step
 
 [Sign in to Jabali Studio](/docs/studio/sign-in/) with your Google or Discord account. Having trouble? See the [Jabali Studio FAQ](/docs/studio/faq/).

@@ -1,6 +1,6 @@
 ---
 title: Jabali Studio interface overview
-description: A tour of the Jabali Studio interface, covering Bali's panel, the Preview, Assets, Layouts and Scripts tabs, publishing, and the toolbar controls.
+description: A tour of the Jabali Studio interface, covering Bali's panel, the Preview, Assets, Layouts, Scripts and Story tabs, the toolbar, publishing and settings.
 sidebar:
   label: Studio interface
 ---
@@ -24,41 +24,69 @@ Bali lets you work on your game in natural language. In this panel you can:
 
 - Ask questions about assets, levels or logic
 - Preview and edit artwork, scenes and scripts
-- Generate or regenerate characters, dialogue or layouts
+- Generate or regenerate characters, dialogue, layouts and other assets
 - Make direct edits using suggestions or follow-up commands
 
-Bali also offers quick actions, such as:
+After each reply, Bali offers suggested next steps as buttons under the chat. Click one to send it.
 
-- Edit background image
-- Generate new character artwork
-- Review game configuration
+The controls around the chat box:
 
-Learn more in [Using Bali](/docs/studio/bali/).
+| Control                         | What it does                                                                                  |
+| ------------------------------- | --------------------------------------------------------------------------------------------- |
+| **+**                           | **Attach files**, **Add MCP server**, **Add agent skill** or **Take screenshot** of the preview |
+| **Model chip** (next to **+**)  | Change the **Model**, **Behavior** and **Reasoning** for this project                          |
+| **Reset Thread** (top of panel) | Clear the chat history and start a fresh conversation. Your project isn't affected.            |
+| **Report** (bug icon)           | Send a bug report or feedback to the Jabali team                                               |
+
+Learn more in [Using Bali](/docs/studio/bali/), [Attachments](/docs/studio/attachments/) and [Models and behavior](/docs/studio/models-and-behavior/).
 
 ## Game editing view (right pane)
 
-This is your central workspace. Four tabs run across the top: **Preview**, **Assets**, **Layouts** and **Scripts**.
+This is your central workspace. Tabs run across the top:
+
+| Tab          | Available in               |
+| ------------ | -------------------------- |
+| **Preview**  | All projects               |
+| **Assets**   | All projects               |
+| **Layouts**  | Godot projects             |
+| **Scripts**  | All projects               |
+| **Story**    | Story-based games          |
 
 ### Preview
 
-See a live preview of your game as it currently exists, including updated visuals, scripts and interactions. Use it to review layout and flow. Click **Run** to playtest on your desktop in a separate window, or **Refresh** after making changes.
+See a live preview of your game as it currently exists, including updated visuals, scripts and interactions. Use it to review layout and flow.
+
+Above the preview you'll find:
+
+- **Dimensions**: preview your game at a different screen size. Choose **Native**, a phone (such as iPhone 14 Pro, Pixel 7 or Galaxy S20), a tablet (iPad Air), **FriendJam Mobile**, or a desktop size from 800 × 600 to 1920 × 1080.
+- **Rotate**: switch between portrait and landscape on phones and tablets.
+- **Fit to View** / **Actual Size**: scale the device to fit the pane, or show it at full size.
+- **Mute Audio** / **Unmute Audio**: control the game's sound.
+- **Show DevTools**: open the browser developer tools for advanced debugging.
+
+Open the logs to see what your game is printing while it builds and runs. Click **Ask Bali** in the logs to have Bali look at an error.
+
+For Godot projects, a banner tells you when **Build is out of date**. Click **Rebuild** to update the preview. If **Last build failed**, click **Diagnose with Bali** to have Bali find and fix the problem.
 
 ### Assets
 
-Browse and manage all game assets, including character sprites, backgrounds, sound files and UI elements.
+Browse and manage all game assets, including character sprites, backgrounds, sound files, video, fonts, 3D models and UI elements.
 
 ![The Assets tab showing a searchable grid of textures and images](../../../assets/studio/assets-tab.webp)
 
 From this tab you can:
 
-- Upload new assets
-- Regenerate visuals with AI
-- Replace or rename files
-- Review asset metadata and linked scenes
+- Search your assets and browse them by folder
+- Upload new assets with **Upload Asset**, or by dragging files onto the tab
+- Regenerate visuals with AI, or click an asset and choose **Edit with Bali**
+- Replace or delete files
+- Review where an asset came from and the prompt used to create it
+
+See [Create assets](/docs/studio/assets/) for everything Bali can generate.
 
 ### Layouts
 
-View and edit all of the game's layout files, structured as Godot `.tscn` scenes. Each layout corresponds to a scene in the game's story or level structure.
+Godot projects only. View and edit all of the game's layout files, structured as Godot `.tscn` scenes. Each layout corresponds to a scene in the game's story or level structure.
 
 ![The Layouts tab listing Godot scene files](../../../assets/studio/layouts-tab.webp)
 
@@ -70,15 +98,34 @@ Use this tab for:
 
 ### Scripts
 
-Explore and modify the game's logic in GDScript. Scripts are organized by scene or asset type.
+Explore and modify the game's logic: GDScript in Godot projects, and JavaScript or TypeScript in web projects.
 
 ![The Scripts tab with project files grouped into Other and Resources](../../../assets/studio/scripts-tab.webp)
 
 You can:
 
 - Edit game logic for interactions, NPC behavior, scoring, triggers and more
-- Debug issues with Bali or in the terminal log view
+- Upload script files with **Upload Scripts**
+- Debug issues with Bali or in the log view
 - Save and test changes in real time
+
+### Story
+
+Appears for story-based games, such as interactive stories. It shows your story's chapters as a flow of connected cards. Use the zoom controls to move around, and double-click a chapter to open it and edit its dialogue.
+
+## Toolbar
+
+The toolbar in the top-right corner has these controls:
+
+| Control                         | What it does                                                                       |
+| ------------------------------- | ---------------------------------------------------------------------------------- |
+| **View version history**        | See every change and restore an earlier version. See [Version history](/docs/studio/version-history/). |
+| **Open Project Settings**       | Game details, plugins and AI settings for this project. See [Settings](/docs/studio/settings/). |
+| **Run in new window**           | Playtest your game in a separate window                                            |
+| **Rebuild the project**         | Rebuild and reload the preview with your latest changes                            |
+| **Publish**                     | Open the publish dialog                                                            |
+
+Next to the game's title, the version label (for example, *v1.0.1 (unpublished)*) shows the version you're working on. Click it to open version history, or click the title to rename the game.
 
 ## Publishing your game
 
@@ -90,16 +137,9 @@ Publishing:
 
 - Syncs your edits to Jabali's cloud
 - Updates the hosted version of your game
-- Generates a new playable link (or replaces the existing one)
+- Gives you a playable link to share
 
-## Additional controls
-
-| Control      | What it does                                                   |
-| ------------ | -------------------------------------------------------------- |
-| **Run**      | Playtest your current scene or game                            |
-| **Settings** | Change project preferences, resolution or export settings      |
-| **Refresh**  | Reload the preview with your latest changes                    |
-| **Report**   | Flag issues or give feedback on Bali's suggestions             |
+See [Publish your game](/docs/studio/publish/) for details.
 
 ## Next step
 
