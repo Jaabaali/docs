@@ -22,15 +22,14 @@ Jabali Studio is available for Windows and macOS. Get the installer from the [Ja
 2. Run the installer and follow the on-screen steps.
 3. Launch Jabali Studio.
 
-:::note[Windows security pop-up]
-If Windows shows a security pop-up when you run the installer or first launch Studio, click **More info**, then click **Run anyway**.
+:::note[Windows pop-up]
+If you see a Windows pop-up when you launch Jabali Studio, first click **More info**, then click **Run anyway**.
 :::
 
 ## Install on Mac
 
 1. Download the `.dmg` file from the [Jabali Studio download page](https://jabali.ai/jabalistudio).
-2. Open the `.dmg` and drag Jabali Studio into your **Applications** folder.
-3. Launch Jabali Studio from Applications.
+2. Drag the app to your **Applications** folder.
 
 ## Next step
 

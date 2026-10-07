@@ -92,7 +92,7 @@ Publishing:
 - Updates the hosted version of your game
 - Generates a new playable link (or replaces the existing one)
 
-## Toolbar controls
+## Additional controls
 
 | Control      | What it does                                                   |
 | ------------ | -------------------------------------------------------------- |

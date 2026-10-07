@@ -52,7 +52,7 @@ You can upload image and audio assets in `.png`, `.jpg`, `.mp3` and `.wav` forma
 
 ### How do I upload custom artwork or sounds?
 
-Open the **Assets** tab and use the upload button. See [Assets](/docs/studio/interface/#assets).
+Open the **Assets** tab and use the **Upload Asset** button. See [Assets](/docs/studio/interface/#assets).
 
 ## Playtesting
 

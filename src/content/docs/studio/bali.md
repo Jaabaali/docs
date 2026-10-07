@@ -49,7 +49,7 @@ You can use Bali to:
 ## Limitations
 
 - Bali works best on one project at a time.
-- Bali can't see drafts that exist only on Jabali Web. Open them in Studio first.
+- Bali can't access unpublished Jabali Web-only drafts. Load them in Studio first.
 - Regenerating assets can take longer than text edits.
 
 ## Use cases
@@ -59,7 +59,7 @@ You can use Bali to:
 - Use AI as your writing collaborator, code reviewer or test assistant
 - Make bulk edits to scenes and branches in plain language
 
-Let Bali handle the heavy lifting while you focus on creativity.
+Let Bali handle the heavy lifting while you focus on creativity. Fire it up, ask away and watch your game evolve in real time.
 
 ## Related pages
 

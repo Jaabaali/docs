@@ -41,7 +41,7 @@ These saves give you safe checkpoints as your game evolves.
 
 ## Recommended versioning workflow
 
-1. **Make a change.** Ask Bali to generate assets, edit scripts, update layouts, or change gameplay or story content.
+1. **Make a change**, such as asking Bali to generate assets, editing scripts, updating layouts, or changing gameplay or story content.
 2. **Preview and test.** Use the **Preview** tab to check the change, and **Run** to playtest.
 3. **Save a version** once the change works as expected.
 4. **Publish when ready.** Click **Publish** to update the hosted version of your game.

@@ -11,9 +11,8 @@ After you sign in, Jabali Studio syncs every game you created on Jabali Web or i
 
 ## Open a game
 
-1. Click **Your Projects** in the sidebar (recent projects are also listed on the home screen).
-2. Click any game in your library.
-3. The game opens in Studio, and Bali summarizes the project structure so you can start editing.
+1. From the start screen, click any game in your library. To see all your games, click **Your Projects** in the sidebar.
+2. Your game opens in Studio.
 
 ![A project opened in Jabali Studio, with Bali's project summary on the left and the game preview on the right](../../../assets/studio/project-opened-in-studio.webp)
 

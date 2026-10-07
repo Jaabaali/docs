@@ -18,7 +18,7 @@ After you [sign in](/docs/studio/sign-in/), the Studio home screen gives you sev
 | **Vibe-code with Phaser**    | Lightweight 2D games                                           |
 | **Vibe-code with Godot**     | 2D or 3D games with layouts, code and advanced mechanics       |
 
-Jabali Studio can also open games you created on Jabali Web. See [Open an existing project](/docs/studio/open-a-project/).
+Jabali Studio can also open games you created on Jabali Web, but it is a full game creation environment in its own right. See [Open an existing project](/docs/studio/open-a-project/).
 
 ![The Jabali Studio home screen with the "Describe your idea" prompt box](../../../assets/studio/studio-home-screen.webp)
 
@@ -34,11 +34,11 @@ Describe the core idea of your game in one or two sentences. Cover the setting, 
 
 > Reflections: Navigate the life of Jay, a 22-year-old graduate from the University of California, Los Angeles, as he attempts to discover his life's purpose through a series of conversations with his family, friends and mentors.
 
-**Weak prompt: too vague**
+**Bad prompt: too vague**
 
 > A game about a recent graduate.
 
-**Weak prompt: too long-winded**
+**Bad prompt: too long-winded**
 
 > Step into the multilayered consciousness of Jay, a 22-year-old recently unshackled from the institutional rhythms of the University of California, Los Angeles, who now finds himself suspended in a liminal space between youthful idealism and the encroaching obligations of adult reality, straddling an internal tug-of-war between the romanticism of self-expression and the paralysis of boundless choice.
 
@@ -58,9 +58,9 @@ Test your game with the in-Studio **Preview**, or publish it to the Jabali cloud
 
 ![Previewing a character simulation game inside Jabali Studio while Bali reports progress](../../../assets/studio/studio-preview-playtest.webp)
 
-As you play, check that the core mechanics, content, audio and visuals match your vision, and look for bugs. Then tell Bali what to change. For example: *"Change the background colors to match UCLA's blue and gold."*
+As you play, check that the core mechanics, content, audio and visuals match your vision, and look for bugs. Then tell Bali what to change, for example if you want the background to match UCLA colors.
 
-Repeat until you are happy with the game. [Bali best practices](/docs/studio/bali-best-practices/) explains how to phrase changes and bug reports so Bali gets them right the first time.
+Repeat until you are happy with the game. [Bali best practices](/docs/studio/bali-best-practices/) explains how to phrase changes and bug reports.
 
 ## Step 4: Finalize and publish
 

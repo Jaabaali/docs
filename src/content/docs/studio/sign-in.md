@@ -8,7 +8,7 @@ sidebar:
 You sign in to Jabali Studio with the same Google or Discord account you use for Jabali. After you sign in, Studio syncs the games you created on Jabali Web or in Studio.
 
 :::caution
-You need a Jabali account linked to Discord or Google to access your projects.
+You must sign in with a Discord or Google account to access your projects.
 :::
 
 ![The Jabali Studio sign-in screen with Continue with Google and Continue with Discord buttons](../../../assets/studio/studio-sign-in-screen.webp)
@@ -24,7 +24,7 @@ You need a Jabali account linked to Discord or Google to access your projects.
 ## If sign-in fails
 
 - Restart Jabali Studio and try again.
-- If you use Discord, make sure you are logged in to Discord in your default browser, or log out of Discord in your browser and try again.
+- If you use Discord, try logging out of Discord in your browser, then sign in again.
 - Some VPNs and browser privacy settings block the login window. Try disabling them temporarily.
 
 More fixes are in the [Jabali Studio FAQ](/docs/studio/faq/#sign-in-and-account).
