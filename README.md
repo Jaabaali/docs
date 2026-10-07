@@ -59,6 +59,6 @@ A custom domain gives jabali.ai the search ranking credit and makes `robots.txt`
 Product changes reach the docs through pull requests, so a maintainer still approves everything:
 
 - **Anyone** can open a "Product update needs docs" issue or a PR.
-- **Automated drafts (being set up):** a scheduled job reviews released product changes and Jabali Discord announcements, then opens a draft PR labelled `product-update` for a maintainer to review.
+- **Automated drafts:** every Monday a scheduled Claude task checks for new **stable** Jabali Studio releases (alpha/prerelease builds are ignored), updates the affected pages plus `studio/whats-new`, and opens a PR titled `Docs: Jabali Studio <version> updates` with the `product-update` label. A maintainer reviews and merges it like any other PR. Internal details, private links and unreleased features are left out.
 
 Only document features that are released and publicly announced.
