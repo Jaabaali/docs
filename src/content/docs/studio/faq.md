@@ -22,9 +22,9 @@ Launch the app and click **Continue with Google** or **Continue with Discord**. 
 
 ## Game access and sync
 
-### Where are my games from Discord or Jabali Web?
+### Where are my games from Jabali Web?
 
-After you sign in, click **Your Projects**. Every game you've generated with Jabali on Discord or the web is listed there. See [Open an existing project](/docs/studio/open-a-project/).
+After you sign in, click **Your Projects**. Every game you've generated on Jabali Web is listed there. See [Open an existing project](/docs/studio/open-a-project/).
 
 ### Why don't I see my latest game?
 

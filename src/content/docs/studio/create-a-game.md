@@ -18,7 +18,7 @@ After you [sign in](/docs/studio/sign-in/), the Studio home screen gives you sev
 | **Vibe-code with Phaser**    | Lightweight 2D games                                           |
 | **Vibe-code with Godot**     | 2D or 3D games with layouts, code and advanced mechanics       |
 
-Jabali Studio can also open games you created on Jabali Web or Discord. See [Open an existing project](/docs/studio/open-a-project/).
+Jabali Studio can also open games you created on Jabali Web. See [Open an existing project](/docs/studio/open-a-project/).
 
 ![The Jabali Studio home screen with the "Describe your idea" prompt box](../../../assets/studio/studio-home-screen.webp)
 
@@ -42,7 +42,7 @@ Describe the core idea of your game in one or two sentences. Cover the setting, 
 
 > Step into the multilayered consciousness of Jay, a 22-year-old recently unshackled from the institutional rhythms of the University of California, Los Angeles, who now finds himself suspended in a liminal space between youthful idealism and the encroaching obligations of adult reality, straddling an internal tug-of-war between the romanticism of self-expression and the paralysis of boundless choice.
 
-Don't worry about getting every detail in. You can add detail later. For more tips, see the [Prompting guide](/docs/guides/prompting/).
+Don't worry about getting every detail in. You can add detail later.
 
 ## Step 2: Work with Bali
 

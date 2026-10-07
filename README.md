@@ -50,7 +50,6 @@ A custom domain gives jabali.ai the search ranking credit and makes `robots.txt`
 3. **Code** (one PR):
    - In `src/site.config.mjs`, set `SITE = 'https://docs.jabali.ai'` and `BASE = '/'`.
    - Replace `/docs/` link prefixes in content: `grep -rl '](/docs/' src/content | xargs sed -i 's#](/docs/#](/#g'` and the same for `href="/docs/` and `link: /docs/`.
-   - Update video `src="/docs/videos/…"` paths to `/videos/…`.
    - Run `npm run build` to confirm every link is still valid.
 4. GitHub automatically redirects old `jaabaali.github.io/docs/…` URLs to the new domain.
 
