@@ -58,7 +58,7 @@ A custom domain gives jabali.ai the search ranking credit and makes `robots.txt`
 Product changes reach the docs through pull requests, so a maintainer still approves everything:
 
 - **Anyone** can open a "Product update needs docs" issue or a PR.
-- **Automated drafts:** every Monday a scheduled Claude task checks for new **stable** Jabali Studio releases (alpha/prerelease builds are ignored), updates the affected pages, and opens a PR titled `Docs: Jabali Studio <version> updates` with the `product-update` label. A maintainer reviews and merges it like any other PR. Internal details, private links and unreleased features are left out.
-- **Release notes page:** each update PR also adds a section for its release to "What's new in Jabali Studio" (`src/content/docs/studio/whats-new.md`, newest first). That page doesn't exist until the first update PR: that PR creates it and adds `'studio/whats-new'` to the Jabali Studio sidebar in `astro.config.mjs`, right after `'studio'`.
+- **New releases:** when a Jabali Studio release ships, the pages it affects are updated in a pull request titled `Docs: Jabali Studio <version> updates` with the `product-update` label. A maintainer reviews it like any other PR.
+- **Release notes:** add each release to the top of "What's new in Jabali Studio" (`src/content/docs/studio/whats-new.md`, newest first), with links to the pages it changed.
 
 Only document features that are released and publicly announced.
