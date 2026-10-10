@@ -101,6 +101,7 @@ export default defineConfig({
 					items: [
 						'studio/engines',
 						'studio/open-a-project',
+						'studio/playtest',
 						{
 							label: 'Create assets',
 							items: [
@@ -140,6 +141,7 @@ export default defineConfig({
 						'studio/settings',
 						'studio/whats-new',
 						'studio/faq',
+						'studio/troubleshooting',
 						'support',
 						'contributing',
 					],
