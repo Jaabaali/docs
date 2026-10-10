@@ -36,7 +36,7 @@ When Sparks are available again, Bali shows **Additional Sparks are now availabl
 
 - **Pick an efficient model for everyday work.** Some models use far fewer Sparks for similar results. For example, GPT 6.1 Sol uses around 80% fewer Sparks than GPT 6 Astra for comparable token usage.
 - **Lower the reasoning effort** for simple edits and questions.
-- **Keep tasks focused.** [Medium-sized tasks](/docs/studio/bali-best-practices/#aim-for-medium-sized-tasks) avoid wasted work on changes you'll undo.
+- **Keep tasks focused.** [Medium-sized tasks](/docs/studio/prompting/#aim-for-medium-sized-tasks) avoid wasted work on changes you'll undo.
 - **Reuse before you regenerate.** For skyboxes, Bali picks from a ready-made library instead of generating from scratch. For other assets, edit an existing one when you can.
 - **Start a fresh thread when a conversation gets very long.** Long histories make every request bigger. Click **Reset Thread** at the top of Bali's panel, then summarize where you are.
 
