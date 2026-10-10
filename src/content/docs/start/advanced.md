@@ -18,7 +18,7 @@ Start with the [Beginner path](/docs/start/beginner/). It covers the basics this
 Settle the design first, so Bali has less to guess.
 
 1. [Design and polish your game: settle the core first](/docs/studio/design-and-polish/#settle-the-core-of-your-game-first)
-2. [Write prompts Bali can act on: plan the design first](/docs/studio/prompting/#plan-the-design-with-bali-before-it-builds)
+2. [Plan the design with Bali before it builds](/docs/studio/bali-best-practices/#plan-the-design-with-bali-before-it-builds)
 3. [Attachments](/docs/studio/attachments/)
 4. [Models and behavior](/docs/studio/models-and-behavior/)
 
@@ -39,7 +39,7 @@ Find your way around a project, and fix things yourself when that's quicker.
 
 1. [Studio interface: Layouts](/docs/studio/interface/#layouts) and [Scripts](/docs/studio/interface/#scripts)
 2. [Tutorial: Fix and tune a Godot game](/docs/tutorials/fix-and-tune-a-godot-game/)
-3. [Debug with Bali](/docs/studio/debugging/)
+3. [Report bugs Bali can act on](/docs/studio/bali-best-practices/#be-descriptive-when-reporting-bugs)
 
 **You can now** find and fix a script by hand, rebuild and test, and give Bali the logs it needs.
 
