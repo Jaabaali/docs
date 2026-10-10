@@ -5,9 +5,26 @@ template: splash
 hero:
   title: Jabali Docs
   tagline: Create AI-powered games with just a prompt. Learn to build, playtest and publish with Jabali Studio and Bali, your AI Producer.
+  # Live 3D Jabali mark (see src/components/Hero3D.astro). The SVG is the flat mark,
+  # shown until the 3D version starts or if the browser can't run WebGL.
   image:
-    file: ../../assets/studio/studio-interface-overview.webp
-    alt: Jabali Studio with Bali's chat on the left and a 3D game preview on the right
+    html: |
+      <div class="jabali-hero-3d" aria-hidden="true">
+        <svg viewBox="-385 -365 1513 1513" focusable="false">
+          <defs>
+            <linearGradient id="jabali-mark-fill" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ff6e71" />
+              <stop offset="1" stop-color="#d42f36" />
+            </linearGradient>
+          </defs>
+          <g fill="url(#jabali-mark-fill)">
+            <circle cx="175" cy="190" r="118" />
+            <path d="M425 58H685V362H540V178H425Z" />
+            <path d="M103 433A291 291 0 0 0 685 433H540A145 145 0 0 1 250 433Z" />
+          </g>
+        </svg>
+        <canvas></canvas>
+      </div>
   actions:
     - text: Get started with Jabali Studio
       link: /docs/studio/
@@ -19,6 +36,9 @@ hero:
 ---
 
 import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+import Hero3D from '../../components/Hero3D.astro';
+
+<Hero3D />
 
 Whether you're a developer, hobbyist, student or part of a small studio, Jabali lets you build story-rich 2D and 3D games in minutes, no coding required. Create visual novels, character sims, roguelite RPGs and arcade games with natural-language prompts, then refine them with **Bali**, Jabali's AI Producer.
 

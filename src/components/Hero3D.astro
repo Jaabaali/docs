@@ -1,0 +1,69 @@
+---
+// Adds the live 3D Jabali mark to the home page hero.
+//
+// The markup lives in `hero.image.html` in `src/content/docs/index.mdx`, so Starlight
+// places it in the hero like an image: a flat SVG mark (shown until WebGL starts, or
+// if it can't) and a <canvas> for the 3D version. This component only brings the
+// script and styles; render it once anywhere on the page.
+---
+
+<script>
+	import '../scripts/hero-3d.js';
+</script>
+
+<style is:global>
+	.jabali-hero-3d {
+		position: relative;
+		width: min(100%, 32rem);
+		aspect-ratio: 1;
+		margin-inline: auto;
+	}
+
+	/* Soft red glow behind the mark. */
+	.jabali-hero-3d::before {
+		content: '';
+		position: absolute;
+		inset: 14%;
+		border-radius: 50%;
+		background: radial-gradient(closest-side, rgb(235 67 71 / 0.38), rgb(235 67 71 / 0.12) 55%, transparent);
+		filter: blur(28px);
+		pointer-events: none;
+	}
+	:root[data-theme='light'] .jabali-hero-3d::before {
+		background: radial-gradient(closest-side, rgb(235 67 71 / 0.22), rgb(235 67 71 / 0.06) 55%, transparent);
+	}
+
+	.jabali-hero-3d svg,
+	.jabali-hero-3d canvas {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		transition: opacity 0.8s ease;
+	}
+	.jabali-hero-3d canvas {
+		opacity: 0;
+	}
+	.jabali-hero-3d.is-live canvas {
+		opacity: 1;
+	}
+	.jabali-hero-3d.is-live svg {
+		opacity: 0;
+	}
+
+	/* On wide screens the scene spills past its column; the background is transparent. */
+	@media (min-width: 50rem) {
+		.jabali-hero-3d {
+			width: 130%;
+			margin-inline: -15%;
+		}
+		.jabali-hero-3d canvas {
+			pointer-events: none;
+		}
+	}
+	@media (max-width: 50rem) {
+		.jabali-hero-3d {
+			width: min(100%, 22rem);
+		}
+	}
+</style>
