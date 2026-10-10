@@ -24,7 +24,7 @@ Icons on a project card tell you more:
 | Archive box           | The game is archived and read-only. See [Archive a project](#archive-a-project). |
 
 :::tip[Don't see your latest game?]
-Go back to the home screen to reload your library, and check that you're signed in with the same account you used to create the game. See the [FAQ](/docs/studio/faq/#game-access-and-sync) for more help.
+Go back to the home screen to reload your library, and check that you're signed in with the same account you used to create the game. See [Troubleshooting](/docs/studio/troubleshooting/#a-game-is-missing-from-your-library) for more help.
 :::
 
 ## Open a FriendJam game

@@ -55,7 +55,7 @@ Sparks measure how much work Bali does. Each request uses Sparks based on the wo
 
 ## Preview and rebuild
 
-The **Preview** tab runs your game inside Studio, so you can playtest as you go. In Godot projects, a **Build is out of date** banner appears after changes. Click **Rebuild** to see them. See [Studio interface](/docs/studio/interface/#preview).
+The **Preview** tab runs your game inside Studio, so you can playtest as you go. In Godot projects, a **Build is out of date** banner appears after changes. Click **Rebuild** to see them. See [Playtest your game](/docs/studio/playtest/).
 
 ## Versions and publishing
 

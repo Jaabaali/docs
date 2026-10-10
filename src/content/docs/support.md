@@ -13,9 +13,9 @@ The best way to get support is the [Jabali Discord community](https://discord.gg
 
 Click **Report** (the bug icon at the top of Bali's panel) in Jabali Studio to send a bug report or feedback on Bali's suggestions. Include what you expected, what happened and how to reproduce it. See [how to write a good bug report](/docs/studio/debugging/#be-descriptive-when-reporting-bugs).
 
-## Check the FAQ
+## Check the FAQ and troubleshooting
 
-Many common questions are answered in the [Jabali Studio FAQ](/docs/studio/faq/).
+Many common questions are answered in the [Jabali Studio FAQ](/docs/studio/faq/). For fixes to common problems, see [Troubleshooting](/docs/studio/troubleshooting/).
 
 ## Report a problem with these docs
 
