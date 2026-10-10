@@ -69,8 +69,9 @@ Grow the game with a new mechanic, new art and your own files.
 
 Pick up the habits that save time and Sparks.
 
-1. [Bali best practices](/docs/studio/bali-best-practices/)
-2. [Sparks and usage](/docs/studio/sparks/)
+1. [Write prompts Bali can act on](/docs/studio/prompting/)
+2. [Debug with Bali](/docs/studio/debugging/)
+3. [Sparks and usage](/docs/studio/sparks/)
 
 **You can now** size your requests well, report bugs clearly and keep your usage in check.
 
