@@ -106,6 +106,10 @@ Open the **Dimensions** menu above the preview and pick a phone or tablet, such 
 
 Click **Rebuild the project** in the toolbar, and make sure your scripts and scenes don't have errors. Check the logs below the preview and click **Ask Bali** to have Bali look at an error. For Godot projects, if the build failed, click **Diagnose with Bali**.
 
+### My game crashed while Bali was working. Is it broken?
+
+Probably not. If you test while Bali is still editing files, you may be running a half-finished change. Wait until Bali finishes, then rebuild and test again. If it still crashes, ask Bali to look at the logs. [Watch at 12:43](https://youtu.be/tvKLPOiFMBM?t=763)
+
 ## Editing and layout
 
 ### Where do I change scene structure or layout?

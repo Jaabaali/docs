@@ -96,6 +96,7 @@ export default defineConfig({
 					items: [
 						'studio/bali',
 						'studio/bali-best-practices',
+						'studio/design-and-polish',
 						'studio/models-and-behavior',
 						'studio/attachments',
 						'studio/sparks',
