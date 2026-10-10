@@ -41,17 +41,6 @@ Built in, no action needed per page:
 
 After launch, add the site to [Google Search Console](https://search.google.com/search-console) and [Bing Webmaster Tools](https://www.bing.com/webmasters) and submit `sitemap-index.xml`. A slot for the Google verification tag is in `astro.config.mjs`.
 
-## Moving to docs.jabali.ai
-
-A custom domain gives jabali.ai the search ranking credit and makes `robots.txt` take effect.
-
-1. **DNS:** add a `CNAME` record `docs` → `jaabaali.github.io`.
-2. **GitHub:** Settings → Pages → Custom domain → `docs.jabali.ai`, then tick **Enforce HTTPS** once the certificate is issued.
-3. **Code** (one PR):
-   - In `src/site.config.mjs`, set `SITE = 'https://docs.jabali.ai'` and `BASE = '/'`.
-   - Replace `/docs/` link prefixes in content: `grep -rl '](/docs/' src/content | xargs sed -i 's#](/docs/#](/#g'` and the same for `href="/docs/` and `link: /docs/`.
-   - Run `npm run build` to confirm every link is still valid.
-4. GitHub automatically redirects old `jaabaali.github.io/docs/…` URLs to the new domain.
 
 ## Keeping docs current with product updates
 
