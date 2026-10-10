@@ -2,10 +2,12 @@
 title: "Tutorial: Customize and polish a game"
 description: Step-by-step tutorial with screenshots on changing an existing game in Jabali Studio by asking Bali, from colors and animation to new enemies and difficulty.
 sidebar:
-  label: Customize and polish a game
+  label: "Part 2: Customize and polish"
 ---
 
 Open an existing lane-based arcade game and improve it by asking Bali in plain words. Part 1 changes the visuals and adds a new enemy. Part 2 tunes the movement and difficulty.
+
+**Cave arcade game, part 2 of 6.** Each part builds on the one before. See [all tutorials](/docs/tutorials/).
 
 **You'll learn how to:** change visuals by asking, find out how your game is put together, generate and add a new enemy, and fix vague problems without digging through files.
 
