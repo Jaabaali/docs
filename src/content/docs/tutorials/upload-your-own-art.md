@@ -2,10 +2,12 @@
 title: "Tutorial: Upload your own art"
 description: Step-by-step tutorial with screenshots on uploading your own artwork to Jabali Studio and having Bali add it to your game as a working asset.
 sidebar:
-  label: Upload your own art
+  label: "Part 6: Your own art"
 ---
 
 Already have artwork, or want to drop your own monster art straight into a game? Upload it, tell Bali what it's for, and Bali adds it to the game. No coding required.
+
+**Cave arcade game, part 6 of 6.** Each part builds on the one before. See [all tutorials](/docs/tutorials/).
 
 **You'll learn how to:** upload an image, give Bali the context it needs, and check that the new asset works in the game.
 
