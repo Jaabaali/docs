@@ -32,6 +32,7 @@ Turn a short idea into a playable game. The guide covers every way to start; the
 
 1. [Create your first game](/docs/studio/create-a-game/)
 2. [Tutorial, part 1: Make your first game](/docs/tutorials/first-game/)
+3. [Playtest your game](/docs/studio/playtest/)
 
 **You can now** turn a prompt into a playable game and playtest it in Studio.
 
@@ -79,4 +80,4 @@ Pick up the habits that save time and Sparks.
 
 - Take on a bigger project with the [Advanced path](/docs/start/advanced/).
 - Learn what makes a game feel good in [Design and polish your game](/docs/studio/design-and-polish/).
-- Stuck at any point? Check the [FAQ](/docs/studio/faq/) or [get help](/docs/support/) on Discord.
+- Stuck at any point? See [Troubleshooting](/docs/studio/troubleshooting/), or [get help](/docs/support/) on Discord.

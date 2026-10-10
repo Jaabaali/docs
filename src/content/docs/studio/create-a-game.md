@@ -90,7 +90,7 @@ Test your game with the in-Studio **Preview**, or publish it to the Jabali cloud
 
 ![Previewing a character simulation game inside Jabali Studio while Bali reports progress](../../../assets/studio/studio-preview-playtest.webp)
 
-To see how your game looks on phones, tablets and desktop screens, use the **Dimensions** menu above the preview. See [Preview](/docs/studio/interface/#preview).
+To see how your game looks on phones, tablets and desktop screens, use the **Dimensions** menu above the preview. See [Check other screen sizes](/docs/studio/playtest/#check-other-screen-sizes).
 
 As you play, check that the core mechanics, content, audio and visuals match your vision, and look for bugs. Then tell Bali what to change, for example if you want the background to match UCLA colors.
 
