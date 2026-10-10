@@ -77,6 +77,21 @@ export default defineConfig({
 					],
 				},
 				{
+					label: 'Tutorials',
+					items: [
+						'tutorials',
+						'tutorials/first-game',
+						'tutorials/customize-a-game',
+						'tutorials/publish-a-game',
+						'tutorials/collectibles-and-scoring',
+						'tutorials/characters-and-art',
+						'tutorials/upload-your-own-art',
+						'tutorials/web-game-from-scratch',
+						'tutorials/fix-and-tune-a-godot-game',
+						'tutorials/3d-game-from-scratch',
+					],
+				},
+				{
 					label: 'Working with Bali',
 					items: [
 						'studio/bali',
@@ -125,7 +140,7 @@ export default defineConfig({
 						'- Games made on Jabali Web (jabali.ai) and FriendJam can be opened in Jabali Studio after sign-in.',
 						'- For support, the Jabali team is on Discord: https://discord.gg/jabali',
 					].join('\n'),
-					promote: ['index*', 'studio/**'],
+					promote: ['index*', 'studio/**', 'tutorials/**'],
 					// The Jabali Web page is a "coming soon" placeholder, so keep it out of the AI copies.
 					exclude: ['web'],
 					// Drop the "Section titled …" heading-anchor links from the AI-readable copies.
