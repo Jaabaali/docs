@@ -14,6 +14,10 @@ Bali can create the sound of your game: background music, sound effects and spok
 3. Adjust the prompt and the options below, then click **Generate**.
 4. Listen to the result and click **Done**. Audio is saved as a WAV file.
 
+**Watch:** [Generate a pickup sound effect](https://youtu.be/ZphMe5ubZ1s?t=68) (1:03, from the tutorial *Building Collectibles & Scoring with Bali*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/ZphMe5ubZ1s?start=68&amp;end=131" title="Video: Generate a pickup sound effect" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ### Music options
 
 | Option           | What it does                                                                        |

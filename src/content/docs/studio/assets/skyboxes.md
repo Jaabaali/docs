@@ -30,3 +30,7 @@ Ask Bali to apply it: *"Use assets/skyboxes/skybox.png as the sky for the main s
 :::note
 Skyboxes come from a curated library, so the result is the closest available match rather than a new image. To create something completely custom, ask Bali to [generate an image](/docs/studio/assets/images/) instead.
 :::
+
+**Watch:** [Swap in a more seamless skybox](https://youtu.be/BMA3t_YWwik?t=1006) (2:03, from the tutorial *Finishing Our 3D 'Floor Is Lava' Game in Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/BMA3t_YWwik?start=1006&amp;end=1129" title="Video: Swap in a more seamless skybox" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

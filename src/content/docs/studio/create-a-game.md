@@ -36,6 +36,10 @@ Click **Templates** in the sidebar to browse ready-made Godot games, such as Int
 
 Studio shows a **Setup checklist** for the template. Fill in what you can, or click **Finish with AI** to let Bali complete the rest. Generating the project files can take a few minutes, and it continues in the background if you go back to the home screen.
 
+**Watch:** [Starter templates and changing a template game](https://youtu.be/aZgecdsUDMY?t=33) (1:03, from the workshop *Jabali Workshop, 6 March 2026 (part 1)*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/aZgecdsUDMY?start=33&amp;end=96" title="Video: Starter templates and changing a template game" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Step 1: Enter your prompt
 
 Describe the core idea of your game in one or two sentences. Cover the setting, tone, main character(s) and the player's objective. Not sure where to start? Click **Suggest an Idea**.
@@ -56,6 +60,10 @@ Don't worry about getting every detail in. You can add detail later.
 
 When you submit your prompt, Studio creates the project and opens it on the **Preview** tab. If something goes wrong, click **Retry**, or **Back to Home** to edit your prompt.
 
+**Watch:** [Turn a vague prompt into a specific one](https://youtu.be/0MhxWFtoAxw?t=1763) (2:09, from the masterclass *How to Build a Game on the Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0MhxWFtoAxw?start=1763&amp;end=1892" title="Video: Turn a vague prompt into a specific one" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Step 2: Work with Bali
 
 Bali asks follow-up questions to shape your game. Answer them to flesh out your vision. Bali also builds a **setup checklist** in the right pane, so you can see what it is working on next.
@@ -65,6 +73,10 @@ A **Project Plan** card at the top of Bali's chat tracks how far along your game
 ![Bali asking clarifying questions next to the setup checklist for an interactive story](../../../assets/studio/bali-setup-checklist.webp)
 
 Ask Bali anything about the current game or the choices it made during development. For example: *"What are the endings for this story?"*
+
+**Watch:** [Ask Bali to talk through the design before it builds](https://youtu.be/AbQ3S1MjLQU?t=131) (2:50, from the masterclass *Designing Game Systems That Feel Good*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=131&amp;end=301" title="Video: Ask Bali to talk through the design before it builds" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ## Step 3: Test, note improvements, tell Bali and repeat
 
@@ -77,6 +89,10 @@ To see how your game looks on phones, tablets and desktop screens, use the **Dim
 As you play, check that the core mechanics, content, audio and visuals match your vision, and look for bugs. Then tell Bali what to change, for example if you want the background to match UCLA colors.
 
 Repeat until you are happy with the game. [Bali best practices](/docs/studio/bali-best-practices/) explains how to phrase changes and bug reports.
+
+**Watch:** [Playtest, then tune with Bali](https://youtu.be/q5EMnBps-4M?t=0) (3:45, from the tutorial *Refine, Balance, and Polish: Finalizing Our Frogger-Style Game with Bali*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/q5EMnBps-4M?start=0&amp;end=225" title="Video: Playtest, then tune with Bali" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ## Step 4: Finalize and publish
 

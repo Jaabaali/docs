@@ -16,6 +16,10 @@ Publishing puts your game online on Jabali, where anyone with the link can play 
 
 ![The Publish Game dialog with name, version, description, poster and release notes](../../../assets/studio/publish-dialog-version-release-notes.webp)
 
+**Watch:** [Why to publish often, and the publish dialog](https://youtu.be/Er8g4jMJa9Q?t=4748) (2:15, from the masterclass *AI Game Jam Masterclass*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/Er8g4jMJa9Q?start=4748&amp;end=4883" title="Video: Why to publish often, and the publish dialog" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Publish dialog fields
 
 | Field                   | Required | What to enter                                                                                   |

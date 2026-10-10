@@ -56,6 +56,10 @@ These saves give you safe checkpoints as your game evolves.
 4. **Publish when ready.** Click **Publish** to update the hosted version of your game. Publishing also creates a new numbered version in the history.
 5. **Repeat** and keep iterating with confidence.
 
+**Watch:** [Restore an earlier version instead of debugging](https://youtu.be/tvKLPOiFMBM?t=544) (1:21, from the live session *Build Your Own Voxel Game Using AI*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/tvKLPOiFMBM?start=544&amp;end=625" title="Video: Restore an earlier version instead of debugging" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Viewing changes
 
 Click a version or an individual change to expand it and see what changed, file by file. Changed images are shown as pictures, not just file names. This helps you understand:
@@ -72,3 +76,7 @@ Before you restore an older version, review its changes so you know what will be
 ## Restoring an earlier version
 
 To roll back, open the version history panel and click **Restore** next to the version you want to return to. Studio reloads the project at that version.
+
+**Watch:** [Restore the whole project or a single file](https://youtu.be/0MhxWFtoAxw?t=3077) (1:50, from the masterclass *How to Build a Game on the Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0MhxWFtoAxw?start=3077&amp;end=3187" title="Video: Restore the whole project or a single file" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>

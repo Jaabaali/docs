@@ -31,6 +31,10 @@ Choose **Web** without a starter to begin with a plain web project and bring you
 
 Next to **Engine**, the **Camera** menu sets the perspective: **2D** for arcade games, platformers and top-down RPGs, or **3D** for action, first-person and open-world games. **Let Bali Decide** works here too.
 
+**Watch:** [Bali recommends a starter for your game](https://youtu.be/0MhxWFtoAxw?t=1904) (2:12, from the masterclass *How to Build a Game on the Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0MhxWFtoAxw?start=1904&amp;end=2036" title="Video: Bali recommends a starter for your game" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Godot projects
 
 Godot projects give you the most built-in tooling in Studio:

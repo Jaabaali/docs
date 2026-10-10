@@ -13,6 +13,10 @@ When you ask Bali for changes, aim for **medium-sized tasks**: big enough to mak
 
 Bali may tell you the expected size of a task in its response. Use that to decide whether to continue, break the task down or make the request more specific.
 
+**Watch:** [Start with a small version of the core loop](https://youtu.be/tvKLPOiFMBM?t=208) (0:42, from the live session *Build Your Own Voxel Game Using AI*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/tvKLPOiFMBM?start=208&amp;end=250" title="Video: Start with a small version of the core loop" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ### Why medium tasks work best
 
 Small tasks can be too narrow:
@@ -62,6 +66,10 @@ When something breaks, give Bali as much useful information as you can:
 
 The more specific you are, the easier it is for Bali to find and fix the problem.
 
+**Watch:** [Use logs, the browser console and precise symptoms](https://youtu.be/e8WYEWMBMKo?t=2330) (1:32, from the workshop *AI Workshop: Polishing Shortlisted Games*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/e8WYEWMBMKo?start=2330&amp;end=2422" title="Video: Use logs, the browser console and precise symptoms" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ### A good bug report
 
 ```text
@@ -96,6 +104,10 @@ This is hard to fix because Bali doesn't know when the lag happens, what the pla
 ## Choose the right agent behavior
 
 Bali has four working behaviors: **Autonomous**, **Collaborative**, **Cautious** and **Creative**. Pick the one that matches how clear your goal is. Change it from the model chip next to **+** in the chat, or in **Project Settings → AI Settings → Behavior**. See [Models and behavior](/docs/studio/models-and-behavior/#behavior).
+
+**Watch:** [Pick a behavior for each phase of your project](https://youtu.be/AbQ3S1MjLQU?t=1293) (1:10, from the masterclass *Designing Game Systems That Feel Good*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=1293&amp;end=1363" title="Video: Pick a behavior for each phase of your project" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ### Autonomous mode
 
@@ -142,6 +154,10 @@ If you're building a more complex game, start with the hardest or most important
 
 For example, in a driving game, start with car movement, steering, acceleration, braking, drift, camera feel, and particles or tire effects. Once the car feels good, it's much easier to expand into tracks, opponents, upgrades, menus and game modes.
 
+**Watch:** [Build the hardest mechanic first, with placeholder shapes](https://youtu.be/e8WYEWMBMKo?t=1778) (0:48, from the workshop *AI Workshop: Polishing Shortlisted Games*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/e8WYEWMBMKo?start=1778&amp;end=1826" title="Video: Build the hardest mechanic first, with placeholder shapes" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ### Core systems to build first
 
 | Game type         | Start with                                  |
@@ -169,6 +185,10 @@ Test the game after each major change. A good loop is:
 
 This keeps your project easier to debug and improves the quality of each step.
 
+**Watch:** [Get a prototype working, then polish](https://youtu.be/e8WYEWMBMKo?t=2986) (0:33, from the workshop *AI Workshop: Polishing Shortlisted Games*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/e8WYEWMBMKo?start=2986&amp;end=3019" title="Video: Get a prototype working, then polish" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Reset the chat when Bali gets stuck
 
 Sometimes Bali may get stuck in a context loop, trying to fix the same thing the same way even when the approach isn't working. Signs Bali may be stuck:
@@ -180,6 +200,10 @@ Sometimes Bali may get stuck in a context loop, trying to fix the same thing the
 - The conversation circles around the same idea
 
 When this happens, it's fine to reset the chat and explain the problem from a new angle.
+
+**Watch:** [When to reset the chat, and what Bali keeps](https://youtu.be/0MhxWFtoAxw?t=1199) (0:33, from the masterclass *How to Build a Game on the Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0MhxWFtoAxw?start=1199&amp;end=1232" title="Video: When to reset the chat, and what Bali keeps" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ### How to reset your approach
 

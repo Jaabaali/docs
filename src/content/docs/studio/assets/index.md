@@ -61,3 +61,7 @@ You can upload whole folders, and archives such as ZIP are extracted for you.
 Each file can be up to 10 MB, and archives up to 100 MB. Uploaded files are saved to version history automatically.
 
 To give Bali a reference without adding it to your game, [attach it in the chat](/docs/studio/attachments/) instead.
+
+**Watch:** [Upload your own art and let Bali wire it in](https://youtu.be/63RSRln5PuQ?t=20) (3:17, from the tutorial *Upload Your Own Art & Add Custom Assets in Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/63RSRln5PuQ?start=20&amp;end=217" title="Video: Upload your own art and let Bali wire it in" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
