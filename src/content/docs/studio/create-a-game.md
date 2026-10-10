@@ -112,6 +112,7 @@ When all your changes are in, click **Publish**. Review the game's name, version
 
 ## Next steps
 
+- [Follow the cave arcade tutorial series](/docs/tutorials/#cave-arcade-game), which builds one game step by step
 - [Tour the Studio interface](/docs/studio/interface/)
 - [Create images, video, audio and 3D models](/docs/studio/assets/)
 - [Save versions and roll back changes](/docs/studio/version-history/)

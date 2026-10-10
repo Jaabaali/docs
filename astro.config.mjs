@@ -60,69 +60,91 @@ export default defineConfig({
 			sidebar: [
 				{ label: 'Home', link: '/' },
 				{
-					label: 'Jabali Studio',
+					label: 'Get started',
 					items: [
+						'start/beginner',
+						'start/advanced',
 						'studio',
-						'studio/whats-new',
 						'studio/install',
 						'studio/sign-in',
+						'studio/concepts',
 						'studio/create-a-game',
-						'studio/engines',
-						'studio/open-a-project',
-						'studio/interface',
-						'studio/publish',
-						'studio/version-history',
-						'studio/settings',
-						'studio/faq',
 					],
 				},
 				{
-					label: 'Tutorials',
+					label: 'Learn by building',
 					items: [
 						'tutorials',
-						'tutorials/first-game',
-						'tutorials/customize-a-game',
-						'tutorials/publish-a-game',
-						'tutorials/collectibles-and-scoring',
-						'tutorials/characters-and-art',
-						'tutorials/upload-your-own-art',
-						'tutorials/web-game-from-scratch',
-						'tutorials/fix-and-tune-a-godot-game',
-						'tutorials/3d-game-from-scratch',
+						{
+							label: 'Cave arcade game',
+							items: [
+								'tutorials/first-game',
+								'tutorials/customize-a-game',
+								'tutorials/publish-a-game',
+								'tutorials/collectibles-and-scoring',
+								'tutorials/characters-and-art',
+								'tutorials/upload-your-own-art',
+							],
+						},
+						{
+							label: 'Projects',
+							items: [
+								'tutorials/web-game-from-scratch',
+								'tutorials/fix-and-tune-a-godot-game',
+								'tutorials/3d-game-from-scratch',
+							],
+						},
 					],
 				},
 				{
-					label: 'Working with Bali',
+					label: 'Build your game',
+					items: [
+						'studio/engines',
+						'studio/open-a-project',
+						{
+							label: 'Create assets',
+							items: [
+								'studio/assets',
+								'studio/assets/images',
+								'studio/assets/skyboxes',
+								'studio/assets/video',
+								'studio/assets/audio',
+								'studio/assets/3d-models',
+							],
+						},
+						'studio/design-and-polish',
+						'studio/version-history',
+						'studio/publish',
+					],
+				},
+				{
+					label: 'Work with Bali',
 					items: [
 						'studio/bali',
 						'studio/bali-best-practices',
-						'studio/design-and-polish',
 						'studio/models-and-behavior',
 						'studio/attachments',
 						'studio/sparks',
+						{
+							label: 'Extend Bali',
+							items: ['studio/skills', 'studio/mcp-servers', 'studio/shell', 'studio/plugins'],
+						},
 					],
 				},
 				{
-					label: 'Create assets',
+					label: 'Reference and help',
 					items: [
-						'studio/assets',
-						'studio/assets/images',
-						'studio/assets/skyboxes',
-						'studio/assets/video',
-						'studio/assets/audio',
-						'studio/assets/3d-models',
+						'studio/interface',
+						'studio/settings',
+						'studio/whats-new',
+						'studio/faq',
+						'support',
+						'contributing',
 					],
-				},
-				{
-					label: 'Extend Bali',
-					items: ['studio/skills', 'studio/mcp-servers', 'studio/shell', 'studio/plugins'],
 				},
 				// Placeholder page with a "Coming soon" badge until the Web docs are rewritten.
+				// When they return, Jabali Web becomes its own sidebar topic beside Jabali Studio.
 				'web',
-				{
-					label: 'Help',
-					items: ['support', 'contributing'],
-				},
 			],
 			plugins: [
 				// Fails the build on broken internal links, so bad links never reach the live site.
@@ -141,7 +163,7 @@ export default defineConfig({
 						'- Games made on Jabali Web (jabali.ai) and FriendJam can be opened in Jabali Studio after sign-in.',
 						'- For support, the Jabali team is on Discord: https://discord.gg/jabali',
 					].join('\n'),
-					promote: ['index*', 'studio/**', 'tutorials/**'],
+					promote: ['index*', 'start/**', 'studio/**', 'tutorials/**'],
 					// The Jabali Web page is a "coming soon" placeholder, so keep it out of the AI copies.
 					exclude: ['web'],
 					// Drop the "Section titled …" heading-anchor links from the AI-readable copies.

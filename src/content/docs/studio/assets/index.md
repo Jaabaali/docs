@@ -2,7 +2,7 @@
 title: Create game assets with Bali in Jabali Studio
 description: Generate images, video, music, sound effects, speech, skyboxes and 3D characters with Bali in Jabali Studio, or upload your own assets.
 sidebar:
-  label: Overview
+  label: About assets
 ---
 
 Bali can create almost every kind of asset a game needs, right inside Jabali Studio. Describe what you want in the chat, review the request, and the result lands in your project ready to use.

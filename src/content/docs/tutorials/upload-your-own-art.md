@@ -2,10 +2,12 @@
 title: "Tutorial: Upload your own art"
 description: Step-by-step tutorial with screenshots on uploading your own artwork to Jabali Studio and having Bali add it to your game as a working asset.
 sidebar:
-  label: Upload your own art
+  label: "Part 6: Your own art"
 ---
 
 Already have artwork, or want to drop your own monster art straight into a game? Upload it, tell Bali what it's for, and Bali adds it to the game. No coding required.
+
+**Cave arcade game, part 6 of 6.** Each part builds on the one before. See [all tutorials](/docs/tutorials/).
 
 **You'll learn how to:** upload an image, give Bali the context it needs, and check that the new asset works in the game.
 
@@ -48,7 +50,7 @@ Bali asks what you'd like to do with the new image and suggests options: a new e
 
 ![Bali describing the uploaded skeleton insect and listing ways to use it in the game](../../../assets/tutorials/upload-your-own-art/03-bali-asks.webp)
 
-Answer in plain words. The game had two rows of obstacles using the same green bugs, so the video replaces the ones on row two:
+Answer in plain words, and name the row or obstacle to replace. In the video, two rows used the same green bugs, so it replaces the ones on row two. If you followed part 2, row one already has your new enemy, so pick a row that still uses an original obstacle:
 
 ```text wrap
 It's a new obstacle. Replace the obstacle on Row 2 with the new skeleton-insect I uploaded.

@@ -2,10 +2,12 @@
 title: "Tutorial: Publish your game"
 description: Short tutorial with screenshots on publishing a game from Jabali Studio and sharing a playable link with friends, family or your community.
 sidebar:
-  label: Publish your game
+  label: "Part 3: Publish it"
 ---
 
 When you've playtested your game and you're happy with the mechanics, logic and assets, publish it so anyone with the link can play it.
+
+**Cave arcade game, part 3 of 6.** Each part builds on the one before. See [all tutorials](/docs/tutorials/).
 
 :::note[Recorded on an earlier version]
 The screenshots and video come from an earlier version of Jabali Studio, so some screens look different today. **Current app** notes explain what changed.

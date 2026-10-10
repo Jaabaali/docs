@@ -2,10 +2,12 @@
 title: "Tutorial: Build a web game from scratch"
 description: Two-part tutorial with screenshots on building a custom Phaser web game in Jabali Studio without a template, from first prototype to fifty elements.
 sidebar:
-  label: Build a web game from scratch
+  label: Web game (Phaser)
 ---
 
 Build an alchemy game, where players combine elements to discover new ones, starting from an idea instead of a template. Part 1 builds a playable prototype. Part 2 scales up the content and adds polish.
+
+**Project tutorial on the [Advanced path](/docs/start/advanced/).** It stands on its own, so you can start here.
 
 **You'll learn how to:** start a web project from an idea, steer Bali when a result isn't what you pictured, and keep game content in a data file so it can grow without touching the code.
 

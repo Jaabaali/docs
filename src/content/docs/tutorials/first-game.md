@@ -2,10 +2,12 @@
 title: "Tutorial: Make your first game"
 description: Step-by-step tutorial with screenshots on going from an idea to a playable game in Jabali Studio, with Bali generating the art, title and poster.
 sidebar:
-  label: Make your first game
+  label: "Part 1: Your first game"
 ---
 
 Go from an idea to a playable game in a few minutes. You'll describe a lane-based arcade game, where a spelunker dodges monsters and bats underground, and let Bali generate the title, art and poster for you.
+
+**Cave arcade game, part 1 of 6.** Each part builds on the one before. See [all tutorials](/docs/tutorials/).
 
 **You'll learn how to:** describe a game idea, answer Bali's setup questions, let Bali finish the setup, and playtest the result.
 

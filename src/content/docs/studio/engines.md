@@ -2,7 +2,7 @@
 title: Game engines and web projects in Jabali Studio
 description: Choose between Godot and web projects (Phaser, Three.js, React Three Fiber, Babylon.js, PlayCanvas) in Jabali Studio, and learn what each one is best for.
 sidebar:
-  label: Engines and web projects
+  label: Choose an engine
 ---
 
 Every Jabali Studio project is built on a game engine. You can pick one when you [create a game](/docs/studio/create-a-game/), or leave the choice to Bali.

@@ -2,10 +2,12 @@
 title: "Tutorial: Add collectibles and scoring"
 description: Step-by-step tutorial with screenshots on adding a collectible mechanic with Bali in Jabali Studio, including art, a pickup sound, scoring and debugging.
 sidebar:
-  label: Add collectibles and scoring
+  label: "Part 4: Collectibles and scoring"
 ---
 
 Add coins and diamonds that players collect for points. Bali generates the art and sound, writes the logic, and helps you debug it when something doesn't work the first time.
+
+**Cave arcade game, part 4 of 6.** Each part builds on the one before. See [all tutorials](/docs/tutorials/).
 
 **You'll learn how to:** describe a new mechanic so Bali gets it right, generate images and sounds as part of a feature, and use on-screen labels and logs to track down a bug.
 

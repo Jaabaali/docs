@@ -2,10 +2,14 @@
 title: "Tutorial: Fix and tune a Godot game"
 description: Two-part tutorial with screenshots on fixing and rebalancing a Godot tower defense game in Jabali Studio with the Assets, Layouts and Scripts tabs.
 sidebar:
-  label: Fix and tune a Godot game
+  label: Tower defense (Godot)
 ---
 
 Fix a bug, regenerate a sprite and rebalance a tower defense game, working alongside Bali and editing code by hand where it's quicker.
+
+**Project tutorial on the [Advanced path](/docs/start/advanced/).** It stands on its own, so you can start here.
+
+**Before you start:** this tutorial begins with a tower defense game that was already made with Bali. To follow along with your own, [create a Godot project](/docs/studio/create-a-game/) and ask Bali for a tower defense game where you drag towers from a panel onto build spots. Your game won't match the screenshots exactly, but the same tabs and steps apply.
 
 **You'll learn how to:** find your way around the Assets, Layouts and Scripts tabs, fix a script yourself, rebuild to test, and change a game value directly.
 

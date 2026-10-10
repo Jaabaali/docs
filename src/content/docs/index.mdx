@@ -26,9 +26,12 @@ hero:
         <canvas></canvas>
       </div>
   actions:
-    - text: Get started with Jabali Studio
-      link: /docs/studio/
+    - text: Start the Beginner path
+      link: /docs/start/beginner/
       icon: right-arrow
+    - text: Advanced path
+      link: /docs/start/advanced/
+      variant: secondary
     - text: Join the Discord
       link: https://discord.gg/jabali
       icon: discord
@@ -42,23 +45,38 @@ import Hero3D from '../../components/Hero3D.astro';
 
 Whether you're a developer, hobbyist, student or part of a small studio, Jabali lets you build story-rich 2D and 3D games in minutes, no coding required. Create visual novels, character sims, roguelite RPGs and arcade games with natural-language prompts, then refine them with **Bali**, Jabali's AI Producer.
 
-## Get started with Jabali Studio
+## Start here
 
 <CardGrid>
 	<LinkCard
-		title="Install and sign in"
-		description="Download Jabali Studio for Windows or Mac and sign in with Google or Discord."
-		href="/docs/studio/install/"
+		title="Beginner path"
+		description="New to Jabali? Install Studio, make a game with Bali, publish it and add to it, step by step. No coding needed."
+		href="/docs/start/beginner/"
 	/>
+	<LinkCard
+		title="Advanced path"
+		description="Plan with Bali, build web and 3D games from scratch, work in the code and extend Bali with your own tools."
+		href="/docs/start/advanced/"
+	/>
+	<LinkCard
+		title="Learn by building"
+		description="Follow a six-part tutorial series or a standalone project, with screenshots for every step and video if you want it."
+		href="/docs/tutorials/"
+	/>
+</CardGrid>
+
+## Popular guides
+
+<CardGrid>
 	<LinkCard
 		title="Create your first game"
 		description="Go from a short prompt, a template or your own design files to a published, playable game."
 		href="/docs/studio/create-a-game/"
 	/>
 	<LinkCard
-		title="Tour the Studio interface"
-		description="Preview, Assets, Layouts and Scripts tabs, device previews, publishing and other controls."
-		href="/docs/studio/interface/"
+		title="Key concepts"
+		description="Bali, projects, templates, engines, Sparks, versions and publishing, each in a paragraph."
+		href="/docs/studio/concepts/"
 	/>
 	<LinkCard
 		title="Create assets with Bali"
@@ -69,6 +87,11 @@ Whether you're a developer, hobbyist, student or part of a small studio, Jabali 
 		title="Bali best practices"
 		description="Size tasks well, write useful bug reports and get unstuck faster."
 		href="/docs/studio/bali-best-practices/"
+	/>
+	<LinkCard
+		title="Design and polish your game"
+		description="Settle your core loop, design levels that teach and fix what playtesters notice."
+		href="/docs/studio/design-and-polish/"
 	/>
 	<LinkCard
 		title="Extend Bali"

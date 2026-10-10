@@ -2,10 +2,12 @@
 title: "Tutorial: Generate characters and art"
 description: Step-by-step tutorial on generating a new player character with Bali in Jabali Studio, swapping it into your game and updating the poster to match.
 sidebar:
-  label: Generate characters and art
+  label: "Part 5: New characters and art"
 ---
 
 Create a new player character with AI, make it the hero of your game, and update the poster to match.
+
+**Cave arcade game, part 5 of 6.** Each part builds on the one before. See [all tutorials](/docs/tutorials/).
 
 **You'll learn how to:** review the art you already have, describe and refine a new character, swap it into the game, and keep your poster consistent.
 

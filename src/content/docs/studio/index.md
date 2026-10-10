@@ -2,7 +2,7 @@
 title: Jabali Studio overview
 description: Jabali Studio is a desktop app for Windows and Mac for creating, editing, playtesting and publishing AI-generated games with Bali, your AI Producer.
 sidebar:
-  label: Overview
+  label: About Jabali Studio
 ---
 
 **Create, edit, playtest and publish AI-generated games from your desktop.**
@@ -42,12 +42,10 @@ You choose the AI model Bali uses and how independently it works, and you can ex
 
 Instead of switching between multiple tools, Jabali Studio and Bali give you one place for everything your game needs. Learn more in [Using Bali](/docs/studio/bali/).
 
-## Next steps
+## Where to go next
 
-1. [Install Jabali Studio](/docs/studio/install/)
-2. [Sign in](/docs/studio/sign-in/)
-3. [Create your first game](/docs/studio/create-a-game/)
-4. [Learn the Studio interface](/docs/studio/interface/)
-5. [Get better results from Bali](/docs/studio/bali-best-practices/)
+- **New to Jabali?** Follow the [Beginner path](/docs/start/beginner/). It takes you from installing Studio to a published game you've changed and extended.
+- **Already made a game?** The [Advanced path](/docs/start/advanced/) covers design, web and 3D projects, working in the code and extending Bali.
+- **Just want the vocabulary?** Read [Key concepts](/docs/studio/concepts/).
 
 See [What's new](/docs/studio/whats-new/) for the latest features.
