@@ -42,6 +42,10 @@ Studio always shows the current list, so check the model menu for what's availab
 
 If a model isn't working well for a task, switching models mid-project is fine. Bali keeps your project and chat history.
 
+**Watch:** [Trade-offs between speed and quality](https://youtu.be/AbQ3S1MjLQU?t=1248) (0:45, from the masterclass *Designing Game Systems That Feel Good*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=1248&amp;end=1293" title="Video: Trade-offs between speed and quality" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Reasoning
 
 Reasoning models can spend more time thinking through a problem before they answer. **Default (Medium)** suits most work. The available levels depend on the model, for example **None**, **Low**, **Medium**, **High** and **Extra High**.
