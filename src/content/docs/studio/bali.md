@@ -22,6 +22,10 @@ You can use Bali to:
 - **Run project commands** such as installing packages or running tests, with your approval. See [Shell tool](/docs/studio/shell/).
 - **Use extra tools and know-how** from [MCP servers](/docs/studio/mcp-servers/) and [Agent Skills](/docs/studio/skills/)
 
+**Watch:** [Bali traces a bug through the logs and fixes it](https://youtu.be/Er8g4jMJa9Q?t=3343) (1:05, from the masterclass *AI Game Jam Masterclass*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/Er8g4jMJa9Q?start=3343&amp;end=3408" title="Video: Bali traces a bug through the logs and fixes it" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## How to use Bali
 
 1. Launch Jabali Studio.
@@ -30,6 +34,10 @@ You can use Bali to:
 4. Type your prompts and questions in the chat box.
 
 ![Bali's chat panel introducing what it can help with, next to a game preview](../../../assets/studio/bali-chat-panel.webp)
+
+**Watch:** [How Studio plans a task and hands it to Bali's agents](https://youtu.be/QUF5JYjUqy4?t=190) (0:32, from the tutorial *Build a Custom Phaser Game from Scratch with AI*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/QUF5JYjUqy4?start=190&amp;end=222" title="Video: How Studio plans a task and hands it to Bali's agents" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ## The chat box
 
@@ -47,6 +55,10 @@ For actions that reach outside your project files, Bali asks first. An approval 
 
 Asset generation works the same way: Bali prepares a request card, and nothing is generated until you click **Generate**.
 
+**Watch:** [Review and accept code changes](https://youtu.be/QUF5JYjUqy4?t=588) (0:21, from the tutorial *Build a Custom Phaser Game from Scratch with AI*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/QUF5JYjUqy4?start=588&amp;end=609" title="Video: Review and accept code changes" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Example prompts
 
 | Goal                  | What to ask                                                          |
@@ -59,12 +71,20 @@ Asset generation works the same way: Bali prepares a request card, and nothing i
 | Debug                 | "Why does Scene 2 not link to the ending?"                           |
 | Code help             | "What does this modifier script do in the combat scene?"             |
 
+**Watch:** [A vague request next to a design-based prompt](https://youtu.be/AbQ3S1MjLQU?t=2180) (2:14, from the masterclass *Designing Game Systems That Feel Good*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=2180&amp;end=2314" title="Video: A vague request next to a design-based prompt" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Advanced tips
 
 - Bali has full access to the project you have open. It understands your code's structure, including functions, classes and Godot scenes, so you can refer to them by name.
 - Use specific scene or character names to target your edits.
 - Ask Bali to compare or summarize content, for example *"Summarize all endings."*
 - You can preview Bali's changes before committing them.
+
+**Watch:** [Give Bali acceptance criteria so it can check its own work](https://youtu.be/AbQ3S1MjLQU?t=3014) (1:29, from the masterclass *Designing Game Systems That Feel Good*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=3014&amp;end=3103" title="Video: Give Bali acceptance criteria so it can check its own work" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ## Limitations
 

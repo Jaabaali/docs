@@ -24,6 +24,10 @@ Bali can generate characters, sprites, backgrounds, items, UI elements and conce
 
 4. Click **Generate**, review the result, then click **Done**.
 
+**Watch:** [Generate a new character, then make it the player](https://youtu.be/3XUVb_-TxdY?t=116) (4:44, from the tutorial *Generate New Characters & Art with AI in Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/3XUVb_-TxdY?start=116&amp;end=400" title="Video: Generate a new character, then make it the player" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Image models
 
 GPT Image 2.5 Sunburst is the default. Pick a different model in **Advanced Options** when another fits the job better.
@@ -55,6 +59,10 @@ Input images can be PNG, JPG, GIF, BMP or TIFF, up to 10 MB each.
 Open the image in the **Assets** tab and click **Edit with Bali**, or ask in the chat: *"Make the knight's armor gold in assets/knight.png."* Bali uses the original as an input image.
 
 For simple changes, Bali can also **flip**, **crop**, **trim empty space**, **resize** and **rotate** images directly, without generating a new one.
+
+**Watch:** [Regenerate an asset with a sharper prompt](https://youtu.be/N_1w9K-XIMU?t=3483) (1:29, from the masterclass *Mastering Prompt Engineering for Game Creation*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/N_1w9K-XIMU?start=3483&amp;end=3572" title="Video: Regenerate an asset with a sharper prompt" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ### Remove a background
 
