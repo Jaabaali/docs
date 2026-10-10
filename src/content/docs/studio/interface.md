@@ -18,6 +18,10 @@ The Studio interface has two main panes:
 | **Left pane: Bali (AI Producer)**  | Your AI agent for prompts, questions, edits and creative suggestions   |
 | **Right pane: Game Studio**        | The main editing area where you view, modify and manage your project   |
 
+**Watch:** [Tour of Bali's chat, the live preview and logs](https://youtu.be/0MhxWFtoAxw?t=416) (1:28, from the masterclass *How to Build a Game on the Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0MhxWFtoAxw?start=416&amp;end=504" title="Video: Tour of Bali's chat, the live preview and logs" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ## Bali's panel (left pane)
 
 Bali lets you work on your game in natural language. In this panel you can:
@@ -52,6 +56,10 @@ This is your central workspace. Tabs run across the top:
 | **Scripts**  | All projects               |
 | **Story**    | Story-based games          |
 
+**Watch:** [Tour of the Preview, Assets, Layouts and Scripts tabs](https://youtu.be/N_1w9K-XIMU?t=318) (2:17, from the masterclass *Mastering Prompt Engineering for Game Creation*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/N_1w9K-XIMU?start=318&amp;end=455" title="Video: Tour of the Preview, Assets, Layouts and Scripts tabs" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ### Preview
 
 See a live preview of your game as it currently exists, including updated visuals, scripts and interactions. Use it to review layout and flow.
@@ -84,6 +92,10 @@ From this tab you can:
 
 See [Create assets](/docs/studio/assets/) for everything Bali can generate.
 
+**Watch:** [Asset details, history and Ask Bali](https://youtu.be/0MhxWFtoAxw?t=504) (1:01, from the masterclass *How to Build a Game on the Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0MhxWFtoAxw?start=504&amp;end=565" title="Video: Asset details, history and Ask Bali" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ### Layouts
 
 Godot projects only. View and edit all of the game's layout files, structured as Godot `.tscn` scenes. Each layout corresponds to a scene in the game's story or level structure.
@@ -109,9 +121,17 @@ You can:
 - Debug issues with Bali or in the log view
 - Save and test changes in real time
 
+**Watch:** [Edit a value by hand, then rebuild](https://youtu.be/VUhvTpTSTcc?t=182) (1:26, from the tutorial *Enhancing Archer Towers: Critical Hits, Visual FX & Balance Tweaks*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/VUhvTpTSTcc?start=182&amp;end=268" title="Video: Edit a value by hand, then rebuild" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
 ### Story
 
 Appears for story-based games, such as interactive stories. It shows your story's chapters as a flow of connected cards. Use the zoom controls to move around, and double-click a chapter to open it and edit its dialogue.
+
+**Watch:** [Story mode: chapters, lines, choices and jumps](https://youtu.be/0MhxWFtoAxw?t=3308) (0:53, from the masterclass *How to Build a Game on the Jabali Studio*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/0MhxWFtoAxw?start=3308&amp;end=3361" title="Video: Story mode: chapters, lines, choices and jumps" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 ## Toolbar
 
