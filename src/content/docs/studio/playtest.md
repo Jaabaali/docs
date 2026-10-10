@@ -9,7 +9,7 @@ Play your game after every change, while what you just asked Bali for is fresh i
 
 ## Play in Studio
 
-The **Preview** tab runs your game inside Studio, with your latest visuals, scripts and interactions. You can play from the start or jump to a specific scene.
+The **Preview** tab runs your game inside Studio. You can play from the start or jump to a specific scene. In Godot projects, the preview shows your latest changes only after you [rebuild](#rebuild-after-changes).
 
 ![Previewing a character simulation game inside Jabali Studio while Bali reports progress](../../../assets/studio/studio-preview-playtest.webp)
 
