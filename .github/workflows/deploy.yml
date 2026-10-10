@@ -1,0 +1,46 @@
+# Publishes the site to GitHub Pages on every push to `main`.
+# Requires Settings → Pages → Build and deployment → Source: GitHub Actions.
+name: Deploy docs
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; never cancel one that is already running.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v7
+        with:
+          # Full history so each page's "Last updated" date comes from its own last commit.
+          fetch-depth: 0
+
+      - name: Build with Astro
+        uses: withastro/action@v6
+        with:
+          node-version: 22
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

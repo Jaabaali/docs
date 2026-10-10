@@ -2,4 +2,4 @@ blank_issues_enabled: false
 contact_links:
   - name: Get help with Jabali (Discord)
     url: https://discord.gg/jabali
-    about: Questions about using Jabali Studio, Jabali Web or the Discord bot are answered fastest on Discord.
+    about: Questions about using Jabali Studio or Jabali Web are answered fastest on Discord.

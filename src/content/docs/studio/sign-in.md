@@ -24,7 +24,7 @@ You must sign in with a Discord or Google account to access your projects.
 ## If sign-in fails
 
 - Restart Jabali Studio and try again.
-- If you use Discord, try logging out of Discord in your browser, then sign in again.
+- If you use Discord, make sure you're logged in to the right Discord account in your default browser. If sign-in still fails, log out of Discord in your browser, log back in, then try again.
 - Some VPNs and browser privacy settings block the login window. Try disabling them temporarily.
 
 More fixes are in the [Jabali Studio FAQ](/docs/studio/faq/#sign-in-and-account).

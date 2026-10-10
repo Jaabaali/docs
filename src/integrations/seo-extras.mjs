@@ -1,8 +1,9 @@
 // Build-time SEO helpers that Starlight does not cover on its own:
 //  - robots.txt that points crawlers (including AI crawlers) at the sitemap
 //  - redirect pages for old URLs so existing links keep their ranking
+import { existsSync } from 'node:fs';
 import { mkdir, writeFile } from 'node:fs/promises';
-import { dirname } from 'node:path';
+import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 /**
@@ -39,15 +40,40 @@ export default function seoExtras({ redirects = {} } = {}) {
 				let count = 0;
 				for (const [from, to] of Object.entries(redirects)) {
 					const target = new URL(to, siteRoot).href;
-					const file = `${outDir}/${from}`;
-					await mkdir(dirname(file), { recursive: true });
-					await writeFile(file, redirectPage(target));
-					count++;
+					for (const path of legacyPaths(from)) {
+						const file = join(outDir, path);
+						// Never overwrite a real page with a redirect.
+						if (existsSync(file)) {
+							logger.warn(`Skipped redirect for ${path}: a page already exists there.`);
+							continue;
+						}
+						await mkdir(dirname(file), { recursive: true });
+						await writeFile(file, redirectPage(target));
+						count++;
+					}
 				}
 				logger.info(`Wrote robots.txt and ${count} legacy redirect pages.`);
 			},
 		},
 	};
+}
+
+/**
+ * Every address an old Jekyll page could be reached at, as files to write.
+ *
+ * `page.html` covers the published URL, and GitHub Pages also serves it for the
+ * extensionless `page`. The old Markdown sources linked to each other as `page.md`,
+ * so links copied from the repo (or from GitHub's file view) use that form. GitHub Pages
+ * serves a `.md` file as plain text, so that redirect goes in `page.md/index.html`:
+ * GitHub Pages sends `/page.md` to `/page.md/`, which serves that HTML page.
+ *
+ * @param {string} from Key from the redirect table, e.g. `core/prompting.html`.
+ * @returns {string[]}
+ */
+function legacyPaths(from) {
+	if (!from.endsWith('.html')) return [from];
+	const stem = from.slice(0, -'.html'.length);
+	return [from, `${stem}.md/index.html`];
 }
 
 /** @param {string} target */

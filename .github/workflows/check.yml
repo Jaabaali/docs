@@ -1,0 +1,39 @@
+# Builds the site on every pull request. The build fails if a page is missing its
+# `description` (or it is too short/long) or if any internal link is broken.
+# Make "Build and validate links" a required status check on `main` (see README.md).
+name: Check docs
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build and validate links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v7
+        with:
+          # Full history so "Last updated" dates match what the live site will show.
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build and validate links
+        run: npm run build

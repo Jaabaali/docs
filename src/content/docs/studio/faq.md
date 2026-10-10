@@ -16,7 +16,7 @@ Launch the app and click **Continue with Google** or **Continue with Discord**. 
 
 ### Why is sign-in failing or freezing?
 
-- If you sign in with Discord, make sure you're logged in to Discord in your default browser.
+- If you sign in with Discord, make sure you're logged in to the right Discord account in your default browser. If sign-in still fails, log out of Discord in your browser, log back in, then try again.
 - If the authentication page doesn't load, restart the app or your browser.
 - Some VPNs and browser privacy settings block the login window. Try disabling them temporarily.
 
