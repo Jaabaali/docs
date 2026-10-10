@@ -28,6 +28,10 @@ Generated files are saved at the **Destination Path** shown in the card and reco
 Generating assets uses [Sparks](/docs/studio/sparks/). Review the prompt and settings in the card before you click **Generate**, especially for video and 3D models, which take longer and use more.
 :::
 
+### Set your style early
+
+Describe your art and audio style once, early in the project or in your design document. Bali uses it for every asset afterwards, so later requests can be as short as *"add a player sprite"*. Watch at [58:14](https://youtu.be/Er8g4jMJa9Q?t=3494) or [24:45](https://youtu.be/0MhxWFtoAxw?t=1485)
+
 ## Work with existing assets
 
 Open the **Assets** tab and click any asset to view it. From the asset viewer you can:

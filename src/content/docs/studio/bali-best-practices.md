@@ -7,6 +7,25 @@ sidebar:
 
 Bali can help you build, edit, debug and improve your game in natural language. To get the best results, treat Bali like a game development teammate: give clear goals, describe problems carefully and work in focused steps.
 
+## Plan the design with Bali before it builds
+
+The more of your design Bali knows up front, the less it has to guess. Before any code is written:
+
+- **Ask Bali to talk it through first.** End your first prompt by asking Bali to discuss the design with you before it builds anything. It will ask about the core loop, rules, progression and how the game should feel. Watch at [03:44](https://youtu.be/AbQ3S1MjLQU?t=224) or [09:22](https://youtu.be/aZgecdsUDMY?t=562)
+- **Write the design for someone who has never played.** For rules-heavy or niche games, spell out scoring, turns and special cases in your design document. Bali can't rely on knowing a game it hasn't seen. [Watch at 12:00](https://youtu.be/N_1w9K-XIMU?t=720)
+- **Mention where the game is going.** If you plan to add more levels, modes or games later, say so at the start so Bali structures the project to grow. [Watch at 12:20](https://youtu.be/N_1w9K-XIMU?t=740)
+- **Taking over an existing project?** Ask Bali to write a design document from the current code first, so you both start from the same picture. [Watch at 27:43](https://youtu.be/0MhxWFtoAxw?t=1663)
+
+[Design and polish your game](/docs/studio/design-and-polish/) covers what to settle in that design, such as the core loop and rewards.
+
+## Write prompts Bali can act on
+
+- **Give acceptance criteria.** Say what "done" looks like, for example *"WASD moves the player, walls block movement, and the player flashes when hit"*, so Bali can check its own work. [Watch at 50:15](https://youtu.be/AbQ3S1MjLQU?t=3015)
+- **Use game-design terms.** Words like *progression*, *feedback*, *parallax* or *tile map* carry a lot of meaning, and Bali knows them. If you don't know the term, describe the effect and compare it to a game you know. Watch at [40:31](https://youtu.be/AbQ3S1MjLQU?t=2431) or [1:09:13](https://youtu.be/0MhxWFtoAxw?t=4153)
+- **Watch for words with two meanings.** In one session, *RPG* meant a rocket launcher but was read as *role-playing game*. Read Bali's plan and correct misunderstandings early. [Watch at 05:40](https://youtu.be/tvKLPOiFMBM?t=340)
+- **Set your style once.** Describe the art and audio style early. After that, asset requests can be as short as *"add a background for level 2"*. Watch at [58:14](https://youtu.be/Er8g4jMJa9Q?t=3494) or [24:45](https://youtu.be/0MhxWFtoAxw?t=1485)
+- **Ask for modular, reusable pieces.** For example: *"Move the top panel into its own scene and script so I can reuse it, and show whatever values I pass it."* Then one change doesn't ripple through the whole game. [Watch at 40:00](https://youtu.be/N_1w9K-XIMU?t=2400)
+
 ## Aim for medium-sized tasks
 
 When you ask Bali for changes, aim for **medium-sized tasks**: big enough to make a meaningful improvement, small enough that you can review, test and debug the result.
@@ -101,6 +120,14 @@ The game is very laggy sometimes.
 
 This is hard to fix because Bali doesn't know when the lag happens, what the player was doing, which system may be involved, or whether the issue is visual, code-related, asset-related or performance-related.
 
+### Help Bali see what you see
+
+Bali can't play your game, but it can read the build and preview logs. Make the most of that:
+
+- **Ask Bali to add logging or on-screen debug info**, such as numbering spawned items or showing coordinates, then describe what you see. [Watch at 47:36](https://youtu.be/0MhxWFtoAxw?t=2856)
+- **Paste logs Bali can't reach.** For a published game, open the browser's developer console and send Bali any errors you find there. [Watch at 38:54](https://youtu.be/e8WYEWMBMKo?t=2334)
+- **Play after every chunk of work.** Short feedback is enough to start, such as *"I'm not sure how this works"*. Bali can work out whether a hint is missing or something is broken. [Watch at 1:11:00](https://youtu.be/Er8g4jMJa9Q?t=4260)
+
 ## Choose the right agent behavior
 
 Bali has four working behaviors: **Autonomous**, **Collaborative**, **Cautious** and **Creative**. Pick the one that matches how clear your goal is. Change it from the model chip next to **+** in the chat, or in **Project Settings → AI Settings → Behavior**. See [Models and behavior](/docs/studio/models-and-behavior/#behavior).
@@ -148,6 +175,10 @@ Use Creative mode when you want ideas, not just execution. On bigger tasks, Bali
 - You want variations to choose from
 - The game feels flat and you want fresh angles
 
+### Switch as your project matures
+
+Many creators use **Creative** or **Autonomous** while exploring an idea, then switch to **Cautious** once the game works and they want to protect it. Watch at [22:06](https://youtu.be/AbQ3S1MjLQU?t=1326) or [56:49](https://youtu.be/Er8g4jMJa9Q?t=3409)
+
 ## Start with the most complex part first
 
 If you're building a more complex game, start with the hardest or most important system. Generating the whole game at once can work for simpler games, but complex games are easier to build when the core mechanic feels good early.
@@ -188,6 +219,18 @@ This keeps your project easier to debug and improves the quality of each step.
 **Watch:** [Get a prototype working, then polish](https://youtu.be/e8WYEWMBMKo?t=2986) (0:33, from the workshop *AI Workshop: Polishing Shortlisted Games*)
 
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/e8WYEWMBMKo?start=2986&amp;end=3019" title="Video: Get a prototype working, then polish" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+## Put lasting rules in Instructions
+
+If you find yourself repeating a preference, add it to **Instructions** in **Project Settings → AI Settings** (see [Settings](/docs/studio/settings/#ai-settings)). Instructions apply to every request in the project. For example:
+
+```text
+Keep scripts modular and under about 500 lines each.
+Make a short plan before large changes.
+Ask before generating new assets.
+```
+
+Shorter files are quicker for Bali to read and change. Watch at [01:52](https://youtu.be/tvKLPOiFMBM?t=112) or [05:34](https://youtu.be/aZgecdsUDMY?t=334)
 
 ## Reset the chat when Bali gets stuck
 
@@ -236,6 +279,8 @@ The enemy should turn around or choose a new patrol point when it reaches a wall
 
 A fresh prompt with better context can help Bali choose a better solution.
 
+You don't have to wait until Bali is stuck. Starting a fresh thread after you finish and publish a feature also keeps Bali focused on the next one. [Watch at 15:05](https://youtu.be/tvKLPOiFMBM?t=905)
+
 ## Ask Bali to explain before changing
 
 If you're unsure why something is happening, ask Bali to explain the current state before you request a fix. For example:
@@ -260,6 +305,8 @@ After Bali completes an important change and the game works, [save a new version
 - A publish-ready version is ready
 
 This gives you a safe checkpoint if future edits break something.
+
+Publishing works as a restore point too. Publish whenever a feature works, and if a later change breaks the game, restoring an earlier version is often faster, and uses fewer Sparks, than debugging. Watch at [56:27](https://youtu.be/0MhxWFtoAxw?t=3387), [09:16](https://youtu.be/tvKLPOiFMBM?t=556) or [39:16](https://youtu.be/e8WYEWMBMKo?t=2356)
 
 ## Quick checklist
 
