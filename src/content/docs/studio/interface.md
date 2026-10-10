@@ -62,19 +62,9 @@ This is your central workspace. Tabs run across the top:
 
 ### Preview
 
-See a live preview of your game as it currently exists, including updated visuals, scripts and interactions. Use it to review layout and flow.
+See a live preview of your game as it currently exists, including updated visuals, scripts and interactions. Above the preview you can change the screen size, mute the sound and open the logs. For Godot projects, a banner tells you when the build is out of date.
 
-Above the preview you'll find:
-
-- **Dimensions**: preview your game at a different screen size. Choose **Native**, a phone (such as iPhone 14 Pro, Pixel 7 or Galaxy S20), a tablet (iPad Air), **FriendJam Mobile**, or a desktop size from 800 × 600 to 1920 × 1080.
-- **Rotate**: switch between portrait and landscape on phones and tablets.
-- **Fit to View** / **Actual Size**: scale the device to fit the pane, or show it at full size.
-- **Mute Audio** / **Unmute Audio**: control the game's sound.
-- **Show DevTools**: open the browser developer tools for advanced debugging.
-
-Open the logs to see what your game is printing while it builds and runs. Click **Ask Bali** in the logs to have Bali look at an error.
-
-For Godot projects, a banner tells you when **Build is out of date**. Click **Rebuild** to update the preview. If **Last build failed**, click **Diagnose with Bali** to have Bali find and fix the problem.
+[Playtest your game](/docs/studio/playtest/) covers every control.
 
 ### Assets
 
@@ -141,25 +131,11 @@ The toolbar in the top-right corner has these controls:
 | ------------------------------- | ---------------------------------------------------------------------------------- |
 | **View version history**        | See every change and restore an earlier version. See [Version history](/docs/studio/version-history/). |
 | **Open Project Settings**       | Game details, plugins and AI settings for this project. See [Settings](/docs/studio/settings/). |
-| **Run in new window**           | Playtest your game in a separate window                                            |
+| **Run in new window**           | Playtest your game in a separate window. See [Playtest your game](/docs/studio/playtest/). |
 | **Rebuild the project**         | Rebuild and reload the preview with your latest changes                            |
-| **Publish**                     | Open the publish dialog                                                            |
+| **Publish**                     | Open the publish dialog. See [Publish your game](/docs/studio/publish/). |
 
 Next to the game's title, the version label (for example, *v1.0.1 (unpublished)*) shows the version you're working on. Click it to open version history, or click the title to rename the game.
-
-## Publishing your game
-
-When you're ready, click **Publish** in the top-right corner. Review the name, version number, description, poster and release notes, then confirm.
-
-![The Publish Game dialog with name, version, description, poster and release notes](../../../assets/studio/publish-dialog-version-release-notes.webp)
-
-Publishing:
-
-- Syncs your edits to Jabali's cloud
-- Updates the hosted version of your game
-- Gives you a playable link to share
-
-See [Publish your game](/docs/studio/publish/) for details.
 
 ## Next step
 
