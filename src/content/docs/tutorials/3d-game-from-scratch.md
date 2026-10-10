@@ -2,10 +2,12 @@
 title: "Tutorial: Build a 3D game from scratch"
 description: Two-part tutorial with screenshots on building a 3D platformer with rising lava in Jabali Studio, from template to textures, power-ups and skybox.
 sidebar:
-  label: Build a 3D game from scratch
+  label: 3D platformer
 ---
 
 Build a 3D game where the player jumps between platforms to escape lava that keeps rising. Part 1 builds the core loop. Part 2 adds the scenery and finishes the game.
+
+**Project tutorial on the [Advanced path](/docs/start/advanced/).** It stands on its own, so you can start here.
 
 **You'll learn how to:** start a 3D game from a template, fix controls and errors with Bali, add mechanics step by step, and make sure generated assets end up in the game.
 
