@@ -19,7 +19,9 @@ Thanks for helping improve the Jabali docs! Anyone in the community can propose 
 src/
   content/docs/        ← every page, as Markdown (.md) or MDX (.mdx)
     index.mdx          ← home page
-    studio/            ← Jabali Studio
+    studio/            ← Jabali Studio (Bali, settings, extensions)
+      assets/          ← creating assets with Bali (images, video, audio, 3D)
+      whats-new.md     ← release notes, newest first
     web.md             ← Jabali Web (placeholder: docs coming soon)
     support.md  contributing.md
   assets/              ← screenshots and images, one folder per section

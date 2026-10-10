@@ -17,6 +17,10 @@ You can use Bali to:
 - **Debug** scenes or test branching logic
 - **Explain code** that controls game behavior, such as roguelike modifiers
 - **Suggest improvements** to writing, pacing or structure
+- **Create assets**: images, video, music, sound effects, speech, skyboxes and 3D characters. See [Create assets](/docs/studio/assets/).
+- **Use your references**: design documents, images, screenshots and data files you attach. See [Attachments](/docs/studio/attachments/).
+- **Run project commands** such as installing packages or running tests, with your approval. See [Shell tool](/docs/studio/shell/).
+- **Use extra tools and know-how** from [MCP servers](/docs/studio/mcp-servers/) and [Agent Skills](/docs/studio/skills/)
 
 ## How to use Bali
 
@@ -26,6 +30,22 @@ You can use Bali to:
 4. Type your prompts and questions in the chat box.
 
 ![Bali's chat panel introducing what it can help with, next to a game preview](../../../assets/studio/bali-chat-panel.webp)
+
+## The chat box
+
+- Click **+** to **Attach files**, **Add MCP server**, **Add agent skill** or **Take screenshot** of the game preview. You can also drag files straight onto the panel.
+- Click the model chip next to **+** to change the **Model**, **Behavior** and **Reasoning** Bali uses for this project. See [Models and behavior](/docs/studio/models-and-behavior/).
+- After each reply, Bali suggests next steps as buttons under the chat. Click one to send it.
+- At the top of the panel, **Reset Thread** clears the conversation and starts fresh, and **Report** sends a bug report to the Jabali team.
+
+## Approving Bali's actions
+
+For actions that reach outside your project files, Bali asks first. An approval card appears in the chat:
+
+- **Shell Approval Required** when Bali wants to run a command. See [Shell tool](/docs/studio/shell/#approve-commands).
+- **MCP Tool Approval Required** when Bali wants to use a tool from an MCP server. See [MCP servers](/docs/studio/mcp-servers/#approve-tool-calls).
+
+Asset generation works the same way: Bali prepares a request card, and nothing is generated until you click **Generate**.
 
 ## Example prompts
 
@@ -41,7 +61,7 @@ You can use Bali to:
 
 ## Advanced tips
 
-- Bali has full access to the project you have open.
+- Bali has full access to the project you have open. It understands your code's structure, including functions, classes and Godot scenes, so you can refer to them by name.
 - Use specific scene or character names to target your edits.
 - Ask Bali to compare or summarize content, for example *"Summarize all endings."*
 - You can preview Bali's changes before committing them.
@@ -51,6 +71,8 @@ You can use Bali to:
 - Bali works best on one project at a time.
 - Bali can't access unpublished Jabali Web-only drafts. Load them in Studio first.
 - Regenerating assets can take longer than text edits.
+- Some AI models can't see images. Studio warns you if the selected model can't read an image you've attached.
+- In very long conversations, Bali may run out of room for context. If that happens, click **Reset thread** and summarize where you are.
 
 ## Use cases
 
@@ -64,4 +86,6 @@ Let Bali handle the heavy lifting while you focus on creativity. Fire it up, ask
 ## Related pages
 
 - [Bali best practices](/docs/studio/bali-best-practices/)
+- [Models and behavior](/docs/studio/models-and-behavior/)
+- [Sparks and usage](/docs/studio/sparks/)
 - [Jabali Studio FAQ](/docs/studio/faq/)
