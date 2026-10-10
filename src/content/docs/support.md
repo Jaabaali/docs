@@ -2,7 +2,7 @@
 title: Get help with Jabali
 description: Where to get help with Jabali Studio, how to report bugs in the app, and how to report problems with these docs.
 sidebar:
-  label: Support
+  label: Get help
 ---
 
 ## Ask the community and the Jabali team
