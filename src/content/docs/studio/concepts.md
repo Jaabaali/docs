@@ -72,4 +72,7 @@ You can give Bali more abilities:
 - [Agent Skills](/docs/studio/skills/): reusable instructions for workflows and conventions.
 - [MCP servers](/docs/studio/mcp-servers/): connections to outside tools and data.
 - [Shell tool](/docs/studio/shell/): running commands in your project folder.
-- [Godot plugins](/docs/studio/plugins/): new features for Godot games.
+
+## Godot plugins
+
+In Godot projects, plugins add ready-made features to the game itself, such as dialogue systems, camera tools or effects. Install them from Project Settings, or ask Bali to find and install one. See [Godot plugins](/docs/studio/plugins/).

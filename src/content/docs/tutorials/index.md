@@ -24,7 +24,7 @@ A six-part series for beginners. You build one lane-based arcade game, where a s
 
 ## Projects
 
-Three standalone projects for the [Advanced path](/docs/start/advanced/). Each starts from scratch, so take them in any order.
+Three standalone projects for the [Advanced path](/docs/start/advanced/). Each stands on its own, so take them in any order. The web and 3D projects start from scratch. The Godot project starts from a tower defense game you've already made with Bali.
 
 | Project | What you'll do | Video length |
 | --- | --- | --- |
