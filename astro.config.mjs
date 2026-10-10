@@ -121,6 +121,8 @@ export default defineConfig({
 					label: 'Work with Bali',
 					items: [
 						'studio/bali',
+						'studio/prompting',
+						'studio/debugging',
 						'studio/bali-best-practices',
 						'studio/models-and-behavior',
 						'studio/attachments',

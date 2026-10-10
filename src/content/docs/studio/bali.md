@@ -75,16 +75,9 @@ Asset generation works the same way: Bali prepares a request card, and nothing i
 
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=2180&amp;end=2314" title="Video: A vague request next to a design-based prompt" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-## Advanced tips
+## Get better results
 
-- Bali has full access to the project you have open. It understands your code's structure, including functions, classes and Godot scenes, so you can refer to them by name.
-- Use specific scene or character names to target your edits.
-- Ask Bali to compare or summarize content, for example *"Summarize all endings."*
-- You can preview Bali's changes before committing them.
-
-**Watch:** [Give Bali acceptance criteria so it can check its own work](https://youtu.be/AbQ3S1MjLQU?t=3014) (1:29, from the masterclass *Designing Game Systems That Feel Good*)
-
-<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=3014&amp;end=3103" title="Video: Give Bali acceptance criteria so it can check its own work" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+Bali does its best work with clear, focused requests. [Write prompts Bali can act on](/docs/studio/prompting/) shows how to plan, size and word them, and [Debug with Bali](/docs/studio/debugging/) covers bug reports and getting unstuck.
 
 ## Limitations
 
@@ -105,6 +98,8 @@ Let Bali handle the heavy lifting while you focus on creativity. Fire it up, ask
 
 ## Related pages
 
+- [Write prompts Bali can act on](/docs/studio/prompting/)
+- [Debug with Bali](/docs/studio/debugging/)
 - [Bali best practices](/docs/studio/bali-best-practices/)
 - [Models and behavior](/docs/studio/models-and-behavior/)
 - [Sparks and usage](/docs/studio/sparks/)

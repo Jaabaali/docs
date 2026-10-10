@@ -66,4 +66,53 @@ Behavior sets how much Bali does on its own before checking in with you. For sma
 | **Cautious**      | Careful, user-guided actions             | Frequently asks for confirmation and clearly explains each step before making changes.            |
 | **Creative**      | Exploratory and innovative               | Proactively suggests new ideas and experimental changes beyond your explicit instructions.       |
 
-[Bali best practices](/docs/studio/bali-best-practices/#choose-the-right-agent-behavior) has advice on when to use each one.
+### When to use each behavior
+
+Pick the behavior that matches how clear your goal is.
+
+#### Autonomous
+
+Use Autonomous mode when you already know what you want and can describe it clearly. It's useful when:
+
+- You have a specific goal
+- You can describe the expected result
+- You want Bali to make progress without many follow-up questions
+- You're comfortable reviewing and debugging the result
+
+Autonomous mode works best for advanced or highly descriptive users.
+
+#### Collaborative
+
+Use Collaborative mode when you're still exploring ideas or want Bali to confirm the direction before making major changes. It's useful when:
+
+- You're unsure what direction to take
+- You want options before committing
+- You want to reduce debugging prompts
+- You want Bali to ask clarifying questions
+- You're designing a system for the first time
+
+Collaborative mode is great when you want Bali to help shape the idea with you.
+
+#### Cautious
+
+Use Cautious mode when you want to approve each step. Bali explains what it plans to do and asks for confirmation before making changes. It's useful when:
+
+- You're working on a fragile or complex part of the game
+- You want to learn how the game works as Bali changes it
+- You're close to publishing and want to avoid surprises
+
+#### Creative
+
+Use Creative mode when you want ideas, not just execution. On bigger tasks, Bali proactively suggests new ideas and experimental changes beyond what you asked for. It's useful when:
+
+- You're brainstorming mechanics, story beats or visual directions
+- You want variations to choose from
+- The game feels flat and you want fresh angles
+
+### Switch as your project matures
+
+Many creators use **Creative** or **Autonomous** while exploring an idea, then switch to **Cautious** once the game works and they want to protect it. Watch at [22:06](https://youtu.be/AbQ3S1MjLQU?t=1326) or [56:49](https://youtu.be/Er8g4jMJa9Q?t=3409)
+
+**Watch:** [Pick a behavior for each phase of your project](https://youtu.be/AbQ3S1MjLQU?t=1293) (1:10, from the masterclass *Designing Game Systems That Feel Good*)
+
+<div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/AbQ3S1MjLQU?start=1293&amp;end=1363" title="Video: Pick a behavior for each phase of your project" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
