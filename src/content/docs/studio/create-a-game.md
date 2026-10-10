@@ -56,6 +56,12 @@ Describe the core idea of your game in one or two sentences. Cover the setting, 
 
 > Step into the multilayered consciousness of Jay, a 22-year-old recently unshackled from the institutional rhythms of the University of California, Los Angeles, who now finds himself suspended in a liminal space between youthful idealism and the encroaching obligations of adult reality, straddling an internal tug-of-war between the romanticism of self-expression and the paralysis of boundless choice.
 
+**Tips for your first prompt**
+
+- Name the genre, 2D or 3D, the engine if you have a preference, and the art style. [Watch at 29:31](https://youtu.be/0MhxWFtoAxw?t=1771)
+- Match the length to how clear your idea is. If you know exactly what you want, write it all out. If it's a rough idea, keep it short and say so. [Watch at 1:26:24](https://youtu.be/Er8g4jMJa9Q?t=5184)
+- End by asking Bali to talk through the design with you before it builds. [Watch at 03:44](https://youtu.be/AbQ3S1MjLQU?t=224)
+
 Don't worry about getting every detail in. You can add detail later.
 
 When you submit your prompt, Studio creates the project and opens it on the **Preview** tab. If something goes wrong, click **Retry**, or **Back to Home** to edit your prompt.
