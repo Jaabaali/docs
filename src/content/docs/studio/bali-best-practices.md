@@ -70,3 +70,20 @@ Before you ask Bali for a change, check:
 ## Final tip
 
 Bali works best when you give it clear creative direction and treat each change as a testable step. Build the hardest part first, keep tasks focused, test often, and don't be afraid to reset the chat when the current approach isn't working.
+
+## Where the full sections moved
+
+This page used to hold the full guidance. Each section now lives in a focused guide:
+
+| Section | Now on |
+| --- | --- |
+| <span id="plan-the-design-with-bali-before-it-builds"></span>Plan the design with Bali before it builds | [Write prompts](/docs/studio/prompting/#plan-the-design-with-bali-before-it-builds) |
+| <span id="write-prompts-bali-can-act-on"></span>Write prompts Bali can act on | [Write prompts: Make every prompt specific](/docs/studio/prompting/#make-every-prompt-specific) |
+| <span id="aim-for-medium-sized-tasks"></span><span id="why-medium-tasks-work-best"></span><span id="examples-of-good-medium-sized-tasks"></span>Aim for medium-sized tasks | [Write prompts](/docs/studio/prompting/#aim-for-medium-sized-tasks) |
+| <span id="start-with-the-most-complex-part-first"></span><span id="core-systems-to-build-first"></span>Start with the most complex part first | [Write prompts](/docs/studio/prompting/#start-with-the-most-complex-part-first) |
+| <span id="ask-bali-to-explain-before-changing"></span>Ask Bali to explain before changing | [Write prompts](/docs/studio/prompting/#ask-bali-to-explain-before-changing) |
+| <span id="put-lasting-rules-in-instructions"></span>Put lasting rules in Instructions | [Write prompts](/docs/studio/prompting/#put-lasting-rules-in-instructions) |
+| <span id="be-descriptive-when-reporting-bugs"></span><span id="a-good-bug-report"></span><span id="a-weak-bug-report"></span><span id="help-bali-see-what-you-see"></span>Be descriptive when reporting bugs | [Debug with Bali](/docs/studio/debugging/#be-descriptive-when-reporting-bugs) |
+| <span id="reset-the-chat-when-bali-gets-stuck"></span><span id="how-to-reset-your-approach"></span>Reset the chat when Bali gets stuck | [Debug with Bali](/docs/studio/debugging/#reset-the-chat-when-bali-gets-stuck) |
+| <span id="autonomous-mode"></span><span id="collaborative-mode"></span><span id="cautious-mode"></span><span id="creative-mode"></span>Autonomous, Collaborative, Cautious and Creative modes | [Models and behavior](/docs/studio/models-and-behavior/#when-to-use-each-behavior) |
+| <span id="switch-as-your-project-matures"></span>Switch as your project matures | [Models and behavior](/docs/studio/models-and-behavior/#switch-as-your-project-matures) |
