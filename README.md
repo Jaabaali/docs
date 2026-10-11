@@ -2,7 +2,7 @@
 
 Source for the Jabali documentation site: **https://jaabaali.github.io/docs/**
 
-The site is built with [Astro Starlight](https://starlight.astro.build) and published to GitHub Pages. Anyone can propose changes; maintainers review and approve them before they go live. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Anyone can propose changes; maintainers review and approve them before they go live. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Quick start
 
