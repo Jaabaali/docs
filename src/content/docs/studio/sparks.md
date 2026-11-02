@@ -30,7 +30,16 @@ If you run out of Sparks, Bali's chat shows *"You've reached your Bali usage lim
 - **Wait for your usage to refresh** on the date shown in **Settings → Billing**.
 - **Upgrade your plan** from **Settings → Billing**.
 
-When Sparks are available again, Bali shows **Additional Sparks are now available.** Click **Continue** to pick up where you left off, or **Retry** to resend your last request.
+While the chat is paused, Studio keeps checking whether your Sparks are back. As soon as they are, Bali shows **Additional Sparks are now available.** Then either:
+
+- Click **Continue** to resume the request that was interrupted.
+- Type a different message and send it instead.
+
+Nothing is sent until you choose.
+
+<!-- TODO screenshot: Bali's chat showing the "Additional Sparks are now available." notice with the Continue button -->
+
+For other errors in the chat, see [When a request is interrupted](/docs/studio/bali/#when-a-request-is-interrupted).
 
 ## Make your Sparks go further
 

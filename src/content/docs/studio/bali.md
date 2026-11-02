@@ -79,6 +79,16 @@ Asset generation works the same way: Bali prepares a request card, and nothing i
 
 Bali does its best work with clear, focused requests. [Write prompts Bali can act on](/docs/studio/prompting/) shows how to plan, size and word them, and [Debug with Bali](/docs/studio/debugging/) covers bug reports and getting unstuck.
 
+## When a request is interrupted
+
+Bali recovers from short interruptions on its own. If the AI model is busy or the connection drops before Bali starts replying, Bali retries automatically and shows a **Retrying** status with a countdown while it waits.
+
+<!-- TODO screenshot: Bali's chat showing the Retrying status with its countdown -->
+
+If Bali still can't get a reply, or a reply stalls partway, the chat shows an error with a **Retry** button. Click **Retry** to send the request again. Once Bali has started replying, it doesn't resend the request on its own.
+
+If the chat stopped because you ran out of Sparks, see [When you reach your limit](/docs/studio/sparks/#when-you-reach-your-limit).
+
 ## Limitations
 
 - Bali works best on one project at a time.
