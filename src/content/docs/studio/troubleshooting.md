@@ -18,6 +18,7 @@ Try these first:
 
 ## Sign-in fails or freezes
 
+- Make sure you're on the latest version. Recent versions fix an issue that could stop some Windows users from signing in. See [Update Jabali Studio](/docs/studio/install/#update-jabali-studio).
 - If you sign in with Discord, make sure you're logged in to the right Discord account in your default browser. If sign-in still fails, log out of Discord in your browser, log back in, then try again.
 - If the authentication page doesn't load, restart the app or your browser.
 - Some VPNs and browser privacy settings block the login window. Try disabling them temporarily.
@@ -51,13 +52,17 @@ Bali can get stuck in a loop, changing the same file or suggesting the same fix 
 
 Click **Reset thread**, then briefly summarize what you're working on. Resetting clears the chat history but doesn't change your project.
 
+## Bali shows an error or stops mid-reply
+
+Click **Retry** on the error to send the request again. Bali already retries short connection problems on its own, so if the error keeps coming back, check your internet connection and try again shortly. See [When a request is interrupted](/docs/studio/bali/#when-a-request-is-interrupted).
+
 ## Bali can't see an image you attached
 
 Some AI models can't read images. Studio shows a warning on the image when the selected model doesn't support it. Switch to a model that supports images and send it again. See [Models and behavior](/docs/studio/models-and-behavior/#choosing-a-model).
 
 ## You ran out of Sparks
 
-Bali pauses and shows that you've reached your usage limit. Wait for your usage to refresh, or upgrade your plan in **Settings → Billing**. When Sparks are available again, click **Continue**. See [Sparks and usage](/docs/studio/sparks/).
+Bali pauses and shows that you've reached your usage limit. Wait for your usage to refresh, or upgrade your plan in **Settings → Billing**. When Sparks are available again, click **Continue** to resume the request that was interrupted. See [Sparks and usage](/docs/studio/sparks/).
 
 ## Report a bug
 

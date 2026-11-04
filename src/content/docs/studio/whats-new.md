@@ -13,6 +13,12 @@ New features and improvements in each Jabali Studio release, newest first. Studi
 - **Five new image models**: GPT Image 2.5 Sunburst (the new default), GPT Image 2.5 Flare, Nano Banana 2 Lite, MAI Image 2.6 and MAI Image 2.6 Flash. Older image models are under **Legacy Models**, and you can still regenerate images from saved requests with your settings preserved. See [Images](/docs/studio/assets/images/).
 - **Seasonal decorations** for October. Turn them off in **Settings → Appearance → Seasonal decorations**.
 
+## v0.27.3-beta (September 25, 2026)
+
+- More reliable sign-in, including a fix for an issue that could stop some Windows users from signing in. See [Sign in to Jabali Studio](/docs/studio/sign-in/#if-sign-in-fails).
+- Bali recovers from temporary problems on its own. When the AI model is busy or the connection drops, Bali retries automatically and shows a countdown while it waits. If a reply stalls, you see an error with a **Retry** button instead of a reply that looks finished. See [When a request is interrupted](/docs/studio/bali/#when-a-request-is-interrupted).
+- If a chat stops because you ran out of Sparks, Studio shows **Additional Sparks are now available.** as soon as your Sparks are back. Click **Continue** to resume the interrupted request, or type a different message. See [Sparks and usage](/docs/studio/sparks/#when-you-reach-your-limit).
+
 ## v0.27.2-beta (September 18, 2026)
 
 - New models: **GPT 6 Astra** and **GLM 5.3**. **Grok 4.6** now supports reasoning.
