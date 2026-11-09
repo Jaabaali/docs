@@ -107,7 +107,7 @@ Not yet, but we're working on it.
 
 ### What are the system requirements for Jabali Studio?
 
-Windows 10 or later, or macOS 12 or later, with at least 4 GB of RAM (8 GB recommended) and 500 MB of free disk space. See [Install Jabali Studio](/docs/studio/install/#system-requirements).
+Windows 10 or later, or macOS 13 or later, with at least 4 GB of RAM (8 GB recommended) and 500 MB of free disk space. See [Install Jabali Studio](/docs/studio/install/#system-requirements).
 
 ### How do I update Jabali Studio?
 
