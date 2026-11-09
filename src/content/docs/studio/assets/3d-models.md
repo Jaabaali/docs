@@ -16,7 +16,7 @@ Bali can create 3D models for your game, from props and buildings to full charac
 3. Open **Advanced Options** to adjust the [settings](#settings).
 4. Click **Generate**. In **Prompt** mode, you first get an untextured preview so you can check the shape.
 5. Happy with the shape? Click **Generate Texture** to add color and materials. You can guide this with a **Texture Prompt** or a **Texture Reference Image**.
-6. Click **Done**. The model is saved in its own folder under `assets/models/`.
+6. Click **Done**. The model is saved in its own folder under `assets/models/`, together with its textures, so it looks the same in your game as it did when you generated it.
 
 ### Settings
 

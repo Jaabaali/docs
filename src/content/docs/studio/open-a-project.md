@@ -69,6 +69,8 @@ Games you've opened are stored on your computer. To reclaim space, remove the lo
 Deleting local contents without uploading your changes first permanently discards those changes.
 :::
 
+For Godot projects, Studio shuts down Godot's background tools before it deletes anything. If it can't, your files are kept and the project card briefly shows a **Deleting failed** warning. Try again.
+
 ## Next step
 
 Learn your way around the [Studio interface](/docs/studio/interface/).

@@ -9,7 +9,7 @@ Play your game after every change, while what you just asked Bali for is fresh i
 
 ## Play in Studio
 
-The **Preview** tab runs your game inside Studio. You can play from the start or jump to a specific scene. In Godot projects, the preview shows your latest changes only after you [rebuild](#rebuild-after-changes).
+The **Preview** tab runs your game inside Studio. You can play from the start or jump to a specific scene. In Godot projects, the preview shows your latest changes only after you [rebuild](#reload-or-rebuild).
 
 ![Previewing a character simulation game inside Jabali Studio while Bali reports progress](../../../assets/studio/studio-preview-playtest.webp)
 
@@ -28,11 +28,20 @@ Above the preview, you'll find these controls:
 - **Fit to View** / **Actual Size**: scale the device to fit the pane, or show it at full size.
 - **Mute Audio** / **Unmute Audio**: control the game's sound.
 
-## Rebuild after changes
+## Reload or rebuild
 
-For Godot projects, a banner tells you when **Build is out of date**. Click **Rebuild** to update the preview. You can also click **Rebuild the project** in the toolbar at any time.
+The preview button in the toolbar has two actions. Click the arrow next to it to pick one:
 
-If **Last build failed**, click **Diagnose with Bali** to have Bali find and fix the problem.
+- **Reload** restarts the game from the current build. It's the quickest way to play again from the start.
+- **Rebuild** builds the game again with your latest changes, then restarts the preview.
+
+The button keeps the action you picked, so the next click repeats it. Studio remembers your choice on this computer for each engine. Godot projects start with **Rebuild** and web projects with **Reload**.
+
+<!-- TODO screenshot: the preview button in the toolbar with its menu open, showing Reload and Rebuild -->
+
+For Godot projects, a banner tells you when **Build is out of date**. Click **Rebuild** to update the preview. If **Last build failed**, click **Diagnose with Bali** to have Bali find and fix the problem.
+
+In web projects, if the preview can't start, you see **Unable to start the preview. Please try again.** Click **Retry** to rebuild and try again.
 
 ## Read the logs
 

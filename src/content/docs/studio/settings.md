@@ -16,7 +16,7 @@ Click your avatar and choose **Settings**. On Mac, you can also choose **Jabali 
 
 | Tab            | What you can do                                                                                           |
 | -------------- | --------------------------------------------------------------------------------------------------------- |
-| **Appearance** | Turn **Seasonal decorations** on or off, like the spider webs that appear in October.                     |
+| **Appearance** | **Seasonal decorations** turns all seasonal themes on or off, like the spider webs in October or the falling leaves in November. Under **Current seasonal themes**, turn individual themes on or off. Themes show up in the list a week before they start. Decorations don't animate if your computer is set to reduce motion. |
 | **Profile**    | Edit your **Full Name**, **Username** and **Creator Tag**, add social links, and copy your **User ID**.   |
 | **Billing**    | See your plan, your Sparks usage and when it refreshes, and upgrade. See [Sparks and usage](/docs/studio/sparks/). |
 | **MCP**        | Add and manage MCP servers that give Bali extra tools. See [MCP servers](/docs/studio/mcp-servers/).      |
@@ -38,7 +38,7 @@ Open a project and click the gear icon (**Open Project Settings**) in the top-ri
 | **Game Name**        | The game's title.                                                                                      |
 | **Game ID**          | The game's unique ID. Useful when you contact support.                                                 |
 | **Game Description** | The short pitch players read.                                                                          |
-| **Plugins**          | Godot projects only. Install curated plugins. See [Godot plugins](/docs/studio/plugins/).              |
+| **Plugins**          | Install curated plugins in Godot and web projects. See [Plugins](/docs/studio/plugins/).               |
 
 Click **Save Changes** after editing the poster, name or description.
 
