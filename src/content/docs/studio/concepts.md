@@ -73,6 +73,6 @@ You can give Bali more abilities:
 - [MCP servers](/docs/studio/mcp-servers/): connections to outside tools and data.
 - [Shell tool](/docs/studio/shell/): running commands in your project folder.
 
-## Godot plugins
+## Plugins
 
-In Godot projects, plugins add ready-made features to the game itself, such as dialogue systems, camera tools or effects. Install them from Project Settings, or ask Bali to find and install one. See [Godot plugins](/docs/studio/plugins/).
+In Godot and web projects, plugins add ready-made features to the game itself, such as dialogue systems, camera tools or effects. Install them from a curated catalog in Project Settings, or ask Bali to find and install one. See [Plugins](/docs/studio/plugins/).

@@ -63,6 +63,7 @@ Publish after major milestones, such as a first playable version or a big bug fi
 - **The Publish button in the dialog is disabled.** Check that **Name** and **Description** are filled in and that the version number is valid.
 - **"Version must be greater than…"** The version must be higher than the last published version, for example `1.0.1` after `1.0.0`.
 - **"Version must use the format x.y.z"** Use three numbers separated by dots, such as `1.2.3`. Don't add a `v` or extra text.
+- **"Publishing request timed out."** Your game may still be publishing. Studio keeps checking in the background for up to 30 minutes and doesn't submit your game a second time. If it still can't confirm, you see **Could not confirm publishing after 30 minutes**. Open your game's page to check before you publish again.
 - **Publishing failed.** Check your internet connection, then try again. If it keeps failing, use the **Report** button in Bali's panel to send us details.
 
 ## Related pages

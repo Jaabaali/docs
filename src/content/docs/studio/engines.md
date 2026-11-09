@@ -40,7 +40,7 @@ Next to **Engine**, the **Camera** menu sets the perspective: **2D** for arcade 
 Godot projects give you the most built-in tooling in Studio:
 
 - The **Layouts** tab for editing Godot scenes (`.tscn` files)
-- [Godot plugins](/docs/studio/plugins/) you can install from a curated catalog
+- [Godot plugins](/docs/studio/plugins/), including GDExtension plugins, from a curated catalog
 - [Templates](/docs/studio/create-a-game/#start-from-a-template) for popular genres
 
 Scripts in Godot projects are written in GDScript. Bali understands Godot scenes and resources, so you can ask about nodes, signals and scene structure as well as code.
@@ -53,11 +53,12 @@ Web projects use the JavaScript and TypeScript ecosystem, so Bali can bring in l
 - Fast development builds and optimized production builds, so published games download and load quickly
 - Linting and code formatting
 - Unit tests
+- [Plugins](/docs/studio/plugins/#plugins-in-web-projects) from the Jabali catalog, which Bali knows how to set up
 
 Bali understands JavaScript, TypeScript, JSX and TSX code, including how components and modules connect. To run project commands like installing a package or running tests, Bali uses the [Shell tool](/docs/studio/shell/), which asks for your approval before running most commands.
 
 :::note
-Some features are only available for Godot projects, such as the **Layouts** tab and [Godot plugins](/docs/studio/plugins/). Everything else, including Bali, asset generation, preview and publishing, works with both.
+Some features are only available for Godot projects, such as the **Layouts** tab. Everything else, including Bali, asset generation, [plugins](/docs/studio/plugins/), preview and publishing, works with both.
 :::
 
 ## First-time downloads
