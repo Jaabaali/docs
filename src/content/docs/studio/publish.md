@@ -67,5 +67,6 @@ Publish after major milestones, such as a first playable version or a big bug fi
 
 ## Related pages
 
+- [Add Jabali Ads to Your Game](/docs/studio/monetization/)
 - [Create your first game](/docs/studio/create-a-game/)
 - [Version history and rollbacks](/docs/studio/version-history/)
