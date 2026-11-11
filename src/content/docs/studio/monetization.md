@@ -107,7 +107,7 @@ Preview testing and published-game testing are separate requirements.
 
 1. Publish the updated build.
 2. Open the normal Jabali player page.
-3. Test each placement. Verify completion, dismissal, reward amounts, cooldowns, and gameplay recovery using approved test delivery.
+3. Test each placement. Verify completion, dismissal, reward amounts, cooldowns, and gameplay recovery.
 
 ### Prompt: Published Game Testing
 
