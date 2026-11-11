@@ -5,9 +5,13 @@ sidebar:
   label: All tutorials
 ---
 
-Each tutorial walks you through a real project step by step, with screenshots, so you can follow along without watching. Every step links to the matching moment in the video, and the full video is on each page if you'd rather watch.
+The project tutorials walk you through real projects step by step, with screenshots, so you can follow along without watching. Their steps link to matching moments in the videos, and the full video is on each page if you'd rather watch.
 
 New to Jabali? Start with the cave arcade series, or follow the [Beginner path](/docs/start/beginner/), which pairs these tutorials with the guides you need along the way.
+
+## Creator onboarding
+
+[Building Games with Jabali Studio](/docs/tutorials/creator-onboarding/) introduces a practical workflow for your own game: start with the main mechanic, configure Bali, build incrementally, playtest, and protect working versions. It includes example prompts and the creator onboarding video.
 
 ## Cave arcade game
 

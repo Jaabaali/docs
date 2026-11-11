@@ -78,6 +78,7 @@ Pick up the habits that save time and Sparks.
 
 ## Where to go next
 
+- Follow [Creator onboarding](/docs/tutorials/creator-onboarding/) for a workflow you can apply to your own game.
 - Take on a bigger project with the [Advanced path](/docs/start/advanced/).
 - Learn what makes a game feel good in [Design and polish your game](/docs/studio/design-and-polish/).
 - Stuck at any point? See [Troubleshooting](/docs/studio/troubleshooting/), or [get help](/docs/support/) on Discord.
