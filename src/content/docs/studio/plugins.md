@@ -1,13 +1,13 @@
 ---
-title: Install Godot plugins in Jabali Studio
-description: Add Godot plugins to your Jabali Studio project from a curated catalog, with setup guidance Bali can follow. Covers editor plugins and GDExtension plugins.
+title: Install plugins in Jabali Studio
+description: Add plugins to Godot and web games in Jabali Studio from a curated catalog, with setup guidance Bali can follow. Covers Godot, GDExtension and npm plugins.
 sidebar:
-  label: Godot plugins
+  label: Plugins
 ---
 
-Godot plugins add new features to your game, such as better dialogue systems, camera tools, effects or physics helpers. Jabali Studio has a curated plugin catalog with setup guidance, so you and Bali can add plugins safely.
+Plugins add new features to your game, such as better dialogue systems, camera tools, effects or physics helpers. Jabali Studio has a curated plugin catalog with setup guidance, so you and Bali can add plugins safely.
 
-Plugins are available for [Godot projects](/docs/studio/engines/#godot-projects).
+Plugins are available for [Godot projects](/docs/studio/engines/#godot-projects) and [web projects](/docs/studio/engines/#web-projects). For web projects, see [Plugins in web projects](#plugins-in-web-projects).
 
 ## Install a plugin
 
@@ -41,9 +41,22 @@ Each plugin also links to its **Homepage**, **Docs** and **Repo**.
 
 When a newer version of an installed plugin is available, its card shows **Update**. If a plugin stops working, try **Reinstall**.
 
+## Plugins in web projects
+
+In web projects, catalog plugins are npm packages. When you install one, Studio adds the package to your project together with a skill that tells Bali how to set the plugin up in your game. Studio checks every package against the catalog before installing it.
+
+Each plugin card in a web project also shows:
+
+- **Declared** and **Installed**: the version your project asks for and the version that's installed.
+- The status of the plugin's skill: **Skill enabled**, **Skill disabled** or **Skill missing**. If the package is installed but its skill isn't turned on, click **Enable skill**.
+
+If the package installs but its skill doesn't, click **Install** again. The package stays installed.
+
+<!-- TODO screenshot: a plugin card in a web project showing the Declared and Installed versions and the skill status -->
+
 ## Plugins that aren't in the catalog
 
-If your project contains plugins that aren't in the catalog, such as ones you added yourself, they appear in the list as read-only, labeled **Godot Editor Plugin** or **GDExtension**. Studio shows them so you know what's in your project, but can't install or update them from the catalog.
+If your project contains plugins that aren't in the catalog, such as ones you added yourself, they appear in the list as read-only. In Godot projects, they're labeled **Godot Editor Plugin** or **GDExtension**. Studio shows them so you know what's in your project, but can't install or update them from the catalog.
 
 :::tip
 After installing a plugin, ask Bali to use it: *"Use the dialogue plugin for the conversation with the shopkeeper."* Bali follows the plugin's guidance to set it up correctly.

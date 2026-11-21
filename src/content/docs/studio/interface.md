@@ -132,7 +132,7 @@ The toolbar in the top-right corner has these controls:
 | **View version history**        | See every change and restore an earlier version. See [Version history](/docs/studio/version-history/). |
 | **Open Project Settings**       | Game details, plugins and AI settings for this project. See [Settings](/docs/studio/settings/). |
 | **Run in new window**           | Playtest your game in a separate window. See [Playtest your game](/docs/studio/playtest/). |
-| **Rebuild the project**         | Rebuild and reload the preview with your latest changes                            |
+| **Reload** / **Rebuild**        | Restart the preview, or rebuild it with your latest changes. Click the arrow to switch. See [Reload or rebuild](/docs/studio/playtest/#reload-or-rebuild). |
 | **Publish**                     | Open the publish dialog. See [Publish your game](/docs/studio/publish/). |
 
 Next to the game's title, the version label (for example, *v1.0.1 (unpublished)*) shows the version you're working on. Click it to open version history, or click the title to rename the game.

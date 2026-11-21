@@ -7,6 +7,29 @@ sidebar:
 
 New features and improvements in each Jabali Studio release, newest first. Studio tells you when a new version is available; see [Update Jabali Studio](/docs/studio/install/#update-jabali-studio). For announcements as they happen, see [Product updates](https://www.jabali.ai/product-updates/) on jabali.ai.
 
+## v0.29.0-beta (November 7, 2026)
+
+- **macOS 13 or later is now required.** Studio runs on a newer desktop engine for better performance and security. See [System requirements](/docs/studio/install/#system-requirements).
+- **Choose your seasonal themes**: **Settings → Appearance** now lists current and upcoming themes, each with its own switch. The **Seasonal decorations** switch still turns them all off. See [Settings](/docs/studio/settings/#app-settings).
+- Long conversations with Bali stay on track. Follow-up questions pick up where you left off, even after large screenshots and tool results.
+- If you run out of Sparks, Bali now shows the usual usage-limit message instead of a confusing error. See [When you reach your limit](/docs/studio/sparks/#when-you-reach-your-limit).
+- Choosing a reasoning level for **GPT 6 Astra** no longer causes errors. See [Reasoning](/docs/studio/models-and-behavior/#reasoning).
+- On Windows, long file paths now work, so uploaded files and 3D model textures keep their original names.
+- Deleting the local copy of a Godot project is safer. Studio shuts Godot's tools down cleanly first and keeps your files if anything goes wrong. See [Free up disk space](/docs/studio/open-a-project/#free-up-disk-space).
+- The Godot layout editor is now included when you install Studio.
+- Image previews skip formats that can't be displayed, and uploading 3D models no longer shows missing-file errors.
+
+## v0.28.0-beta (November 4, 2026)
+
+- **Bali can look at your game.** With supported models, Bali can open the images in your project and ask for a screenshot of the game preview, which it only gets with your approval. Bali checks what it sees and keeps working. See [Let Bali look at your game](/docs/studio/bali/#let-bali-look-at-your-game).
+- **Plugins for web games**: install plugins from the Jabali catalog in web projects, and Bali knows how to set them up in your game. Every package is checked before it's installed. See [Plugins](/docs/studio/plugins/#plugins-in-web-projects).
+- **Reload or rebuild**: the preview button in the toolbar now offers **Reload** and **Rebuild** and remembers your choice. In web projects, click **Retry** if the game fails to start. See [Playtest your game](/docs/studio/playtest/#reload-or-rebuild).
+- Publishing copes better with slow connections. If a publish request times out, Studio keeps checking in the background instead of submitting your game twice. See [Publish your game](/docs/studio/publish/#troubleshooting).
+- Generated 3D models are saved together with their textures, so what you generate is what you get in your scene. See [3D models](/docs/studio/assets/3d-models/#generate-a-3d-model).
+- **Seasonal decorations** for November. Turn them off in **Settings → Appearance**.
+- The **Docs** item in the **Help** menu opens the latest Jabali docs.
+- Fixes: Godot downloads recover from corrupted cached files, missing project folders and Windows file watching are handled more safely, and code editing support starts more reliably.
+
 ## v0.27.4-beta (October 2, 2026)
 
 - **GPT 6.1 Sol** joins the model list. It performs close to GPT 6 Astra on coding and complex work and uses around 80% fewer Sparks than GPT 6 Astra for comparable token usage. Savings vary by task and reasoning setting. See [Models and behavior](/docs/studio/models-and-behavior/).

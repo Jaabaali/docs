@@ -48,7 +48,7 @@ If a model isn't working well for a task, switching models mid-project is fine. 
 
 ## Reasoning
 
-Reasoning models can spend more time thinking through a problem before they answer. **Default (Medium)** suits most work. The available levels depend on the model, for example **None**, **Low**, **Medium**, **High** and **Extra High**.
+Reasoning models can spend more time thinking through a problem before they answer. **Default (Medium)** suits most work. The available levels depend on the model, for example **None**, **Low**, **Medium**, **High** and **Extra High**. **GPT 6 Astra** offers **Low**, **Medium**, **High**, **Extra High** and **Max**.
 
 - Use **higher** reasoning for complex systems, hard bugs and planning large changes.
 - Use **lower** reasoning for quick edits and simple questions. It's faster and uses fewer Sparks.

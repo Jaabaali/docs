@@ -1,6 +1,6 @@
 ---
 title: Install Jabali Studio on Windows and Mac
-description: Download and install the Jabali Studio desktop app on Windows 10+ or macOS 12+, including system requirements and how to get past the Windows security prompt.
+description: Download and install the Jabali Studio desktop app on Windows 10+ or macOS 13+, including system requirements and how to get past the Windows security prompt.
 sidebar:
   label: Install
 ---
@@ -12,9 +12,11 @@ Jabali Studio is available for Windows and macOS. Get the installer from the [Ja
 | Requirement      | Minimum                    |
 | ---------------- | -------------------------- |
 | Windows          | Windows 10 or later        |
-| Mac              | macOS 12 or later          |
+| Mac              | macOS 13 or later          |
 | Memory (RAM)     | 4 GB (8 GB recommended)    |
 | Disk space       | 500 MB free                |
+
+Since v0.29.0-beta, Jabali Studio needs macOS 13 or later. If your Mac runs an older version, update macOS before you install or update Studio.
 
 ## Install on Windows
 

@@ -75,7 +75,7 @@ Give Bali standing rules, new know-how and access to your own tools.
 3. [MCP servers](/docs/studio/mcp-servers/)
 4. [Shell tool](/docs/studio/shell/)
 
-In Godot projects, [Godot plugins](/docs/studio/plugins/) add ready-made features to the game itself, such as dialogue systems or camera tools. Bali can find and install them for you.
+In Godot and web projects, [plugins](/docs/studio/plugins/) add ready-made features to the game itself, such as dialogue systems or camera tools. Bali can find and install them for you.
 
 **You can now** give Bali rules for every request, teach it new workflows, connect outside tools and let it run project commands.
 

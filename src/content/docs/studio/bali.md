@@ -19,6 +19,7 @@ You can use Bali to:
 - **Suggest improvements** to writing, pacing or structure
 - **Create assets**: images, video, music, sound effects, speech, skyboxes and 3D characters. See [Create assets](/docs/studio/assets/).
 - **Use your references**: design documents, images, screenshots and data files you attach. See [Attachments](/docs/studio/attachments/).
+- **Check its work visually** by looking at images in your project and, with your approval, at screenshots of your game. See [Let Bali look at your game](#let-bali-look-at-your-game).
 - **Run project commands** such as installing packages or running tests, with your approval. See [Shell tool](/docs/studio/shell/).
 - **Use extra tools and know-how** from [MCP servers](/docs/studio/mcp-servers/) and [Agent Skills](/docs/studio/skills/)
 
@@ -52,12 +53,33 @@ For actions that reach outside your project files, Bali asks first. An approval 
 
 - **Shell Approval Required** when Bali wants to run a command. See [Shell tool](/docs/studio/shell/#approve-commands).
 - **MCP Tool Approval Required** when Bali wants to use a tool from an MCP server. See [MCP servers](/docs/studio/mcp-servers/#approve-tool-calls).
+- A screenshot request with **Capture now** when Bali wants to see your game preview. See [Let Bali look at your game](#let-bali-look-at-your-game).
 
 Asset generation works the same way: Bali prepares a request card, and nothing is generated until you click **Generate**.
 
 **Watch:** [Review and accept code changes](https://youtu.be/QUF5JYjUqy4?t=588) (0:21, from the tutorial *Build a Custom Phaser Game from Scratch with AI*)
 
 <div class="video-embed"><iframe src="https://www.youtube-nocookie.com/embed/QUF5JYjUqy4?start=588&amp;end=609" title="Video: Review and accept code changes" loading="lazy" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+## Let Bali look at your game
+
+With supported models, Bali can look at the images in your project and at your running game, then keep working from what it sees. That way Bali can catch layout problems and sprites that look wrong.
+
+- **Images in your project**: Bali opens PNG, JPEG, WebP and GIF files in your project when it needs to check them. For a GIF, it sees the first frame.
+- **Screenshots of your game**: Bali asks first. A card in the chat explains what Bali wants to check.
+
+To share a screenshot:
+
+1. Open the **Preview** tab and get the game into the state Bali asked about.
+2. Click **Capture now**. Only the game preview is shared with Bali.
+
+To continue without a screenshot, click **Cancel**. After Bali looks at an image, the chat shows **Image inspected** with the image it saw.
+
+<!-- TODO screenshot: Bali's screenshot request card with the Capture now and Cancel buttons -->
+
+Bali can only look at images with models that support them. If the selected model can't see images, choose another one in the [model menu](/docs/studio/models-and-behavior/).
+
+To show Bali something yourself, [take a screenshot](/docs/studio/attachments/#take-a-screenshot-of-your-game) and attach it to your message.
 
 ## Example prompts
 

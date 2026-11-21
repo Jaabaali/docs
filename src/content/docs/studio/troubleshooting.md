@@ -29,7 +29,7 @@ Go back to the home screen to reload your library, and make sure you're signed i
 
 ## The playtest is stuck or won't load
 
-Click **Rebuild the project** in the toolbar, and make sure your scripts and scenes don't have errors. Check the logs below the preview and click **Ask Bali** to have Bali look at an error. For Godot projects, if the build failed, click **Diagnose with Bali**. See [Playtest your game](/docs/studio/playtest/).
+Rebuild the game (choose **Rebuild** from the preview button in the toolbar), and make sure your scripts and scenes don't have errors. Check the logs below the preview and click **Ask Bali** to have Bali look at an error. For Godot projects, if the build failed, click **Diagnose with Bali**. See [Playtest your game](/docs/studio/playtest/).
 
 ## The game crashed while Bali was working
 
