@@ -75,6 +75,7 @@ export default defineConfig({
 					label: 'Learn by building',
 					items: [
 						'tutorials',
+						'tutorials/creator-onboarding',
 						{
 							label: 'Cave arcade game',
 							items: [
