@@ -7,6 +7,14 @@ sidebar:
 
 New features and improvements in each Jabali Studio release, newest first. Studio tells you when a new version is available; see [Update Jabali Studio](/docs/studio/install/#update-jabali-studio). For announcements as they happen, see [Product updates](https://www.jabali.ai/product-updates/) on jabali.ai.
 
+## v0.29.1-beta (November 11, 2026)
+
+- **New 3D models never overwrite existing ones.** If a model with the same name already exists, Studio saves the new one under the next free name, such as `chest-1`. See [Models with the same name](/docs/studio/assets/3d-models/#models-with-the-same-name).
+- Starting a new 3D model after cancelling one no longer shows the old preview or jumps ahead to **Done**. Each new request shows a placeholder until its own preview is ready. See [Generate a 3D model](/docs/studio/assets/3d-models/#generate-a-3d-model).
+- Skills sync more reliably. A missing or broken skill folder no longer stops your other skills from syncing. See [Agent Skills](/docs/studio/skills/).
+- Fixes: on Windows, Studio no longer shows an error if a project folder disappears while it's opening, and watching your project files for changes recovers better from errors.
+- Studio's desktop runtime and core components are updated with the latest security fixes.
+
 ## v0.29.0-beta (November 7, 2026)
 
 - **macOS 13 or later is now required.** Studio runs on a newer desktop engine for better performance and security. See [System requirements](/docs/studio/install/#system-requirements).

@@ -14,9 +14,13 @@ Bali can create 3D models for your game, from props and buildings to full charac
    - **Prompt**: describe the model in words.
    - **Reference Image**: upload a PNG or JPG (up to 10 MB) of the object or character, such as concept art.
 3. Open **Advanced Options** to adjust the [settings](#settings).
-4. Click **Generate**. In **Prompt** mode, you first get an untextured preview so you can check the shape.
+4. Click **Generate**. The card shows a placeholder image until the preview is ready. In **Prompt** mode, you first get an untextured preview so you can check the shape.
 5. Happy with the shape? Click **Generate Texture** to add color and materials. You can guide this with a **Texture Prompt** or a **Texture Reference Image**.
 6. Click **Done**. The model is saved in its own folder under `assets/models/`, together with its textures, so it looks the same in your game as it did when you generated it.
+
+### Models with the same name
+
+Generating a model never overwrites one you already have. If a model, its preview image or its folder already uses the name, Studio saves the new model under the next free name by adding a number. For example, if `assets/models/chest/` already exists, the new model goes in `assets/models/chest-1/` as `chest-1.glb`.
 
 ### Settings
 
