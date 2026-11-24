@@ -117,6 +117,7 @@ export default defineConfig({
 						'studio/design-and-polish',
 						'studio/version-history',
 						'studio/publish',
+						'studio/monetization',
 					],
 				},
 				{
